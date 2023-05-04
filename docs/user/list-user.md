@@ -49,7 +49,7 @@ sidebar_position: 4
         "AccountStatus": "Active",
         "FinancialStatus": "Active",
         "MaintenanceAccessStatus": "Disable",
-        "IsMfa": "True",
+        "IsMfa": "Verified",
         "IsPhoneVerified": "Verified",
         "IsEmailVerified": "Verified",
         "MfaType": "MfaType",
