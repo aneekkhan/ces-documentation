@@ -1,8 +1,8 @@
 {
   "label": "Trade Pair",
-  "position": 1,
+  "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "trade-pair"
+    "description": "trade pair"
   }
 }
