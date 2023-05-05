@@ -1,0 +1,8 @@
+{
+  "label": "Currency",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Currency Management"
+  }
+}
