@@ -41,14 +41,14 @@ sidebar_position: 2
         "Icon": "https://demo-exchange.squaredbyte.com/storage/images/coin-icons/default.png",
         "Symbol": "USD",
         "Name": "United States Dollar",
-        "Balance": "2000"
+        "Balance": 2000
       },
       {
         "ID": "321e4567-e89b-12d3-a456-426614174000",
         "Icon": "https://demo-exchange.squaredbyte.com/storage/images/coin-icons/default.png",
         "Symbol": "BTC",
         "Name": "Bitcoin",
-        "Balance": "0.00005000"
+        "Balance": 0.00005000
       }
     ]
   },
