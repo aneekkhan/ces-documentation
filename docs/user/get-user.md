@@ -38,18 +38,18 @@ sidebar_position: 3
   "Email": "mail@mail.com",
   "Phone": "1234567890",
   "Password": "password",
-  "Status": "Active",
-  "AccountStatus": "Active",
-  "FinancialStatus": "Active",
-  "MaintenanceAccessStatus": "Disable",
-  "IsMfa": "Pending",
-  "IsPhoneVerified": "Pending",
-  "IsEmailVerified": "Pending",
-  "MfaType": "MfaType",
+  "Status": "STATUS_UNKNOWN",
+  "AccountStatus": "ACCOUNT_STATUS_UNKNOWN",
+  "FinancialStatus": "FINANCIAL_STATUS_UNKNOWN",
+  "MaintenanceAccessStatus": "MAINTENANCE_ACCESS_STATUS_UNKNOWN",
+  "IsMfa": "IS_MFA_TRUE",
+  "IsPhoneVerified": "IS_PHONE_VERIFIED_TRUE",
+  "IsEmailVerified": "IS_EMAIL_TRUE",
+  "MfaType": "MFA_TYPE_RECOVERY",
   "CreatedAt": "2020-03-24T06:03:00.348+03:00",
-  "CreatedBy": "2020-03-24T06:03:00.348+03:00",
+  "CreatedBy": "mail@mail.com",
   "UpdatedAt": "2020-03-24T06:03:00.348+03:00",
-  "UpdatedBy": "2020-03-24T06:03:00.348+03:00"
+  "UpdatedBy": "mail@mail.com"
 }
 ```
 
@@ -60,7 +60,6 @@ sidebar_position: 3
   "Email": "mail@mail.com"
 }
 ```
-
 ### Get User by Email Response example:
 
 ```json
@@ -71,18 +70,18 @@ sidebar_position: 3
   "Email": "mail@mail.com",
   "Phone": "1234567890",
   "Password": "password",
-  "Status": "Active",
-  "AccountStatus": "Active",
-  "FinancialStatus": "Active",
-  "MaintenanceAccessStatus": "Disable",
-  "IsMfa": "True",
-  "IsPhoneVerified": "Verified",
-  "IsEmailVerified": "Verified",
-  "MfaType": "MfaType",
+  "Status": "STATUS_UNKNOWN",
+  "AccountStatus": "ACCOUNT_STATUS_UNKNOWN",
+  "FinancialStatus": "FINANCIAL_STATUS_UNKNOWN",
+  "MaintenanceAccessStatus": "MAINTENANCE_ACCESS_STATUS_UNKNOWN",
+  "IsMfa": "IS_MFA_TRUE",
+  "IsPhoneVerified": "IS_PHONE_VERIFIED_TRUE",
+  "IsEmailVerified": "IS_EMAIL_TRUE",
+  "MfaType": "MFA_TYPE_RECOVERY",
   "CreatedAt": "2020-03-24T06:03:00.348+03:00",
-  "CreatedBy": "2020-03-24T06:03:00.348+03:00",
+  "CreatedBy": "mail@mail.com",
   "UpdatedAt": "2020-03-24T06:03:00.348+03:00",
-  "UpdatedBy": "2020-03-24T06:03:00.348+03:00"
+  "UpdatedBy": "mail@mail.com"
 }
 `
 ```

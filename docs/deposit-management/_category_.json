@@ -1,0 +1,8 @@
+{
+  "label": "Deposit",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Deposit Management"
+  }
+}
