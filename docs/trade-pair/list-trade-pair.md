@@ -51,9 +51,9 @@ sidebar_position: 4
         "MakerFee": "99.00",
         "TakerFee": "90.89",
         "CreatedAt": "2020-03-24T06:03:00.348+03:00",
-        "CreatedBy": "2020-03-24T06:03:00.348+03:00",
+        "CreatedBy": "jhon smith",
         "UpdatedAt": "2020-03-24T06:03:00.348+03:00",
-        "UpdatedBy": "2020-03-24T06:03:00.348+03:00"
+        "UpdatedBy": "jhon doe"
       },
       {
         "BaseCurrencyId": "1234",
@@ -67,9 +67,9 @@ sidebar_position: 4
         "MakerFee": "99.00",
         "TakerFee": "90.89",
         "CreatedAt": "2020-03-24T06:03:00.348+03:00",
-        "CreatedBy": "2020-03-24T06:03:00.348+03:00",
+        "CreatedBy": "jhon smith",
         "UpdatedAt": "2020-03-24T06:03:00.348+03:00",
-        "UpdatedBy": "2020-03-24T06:03:00.348+03:00"
+        "UpdatedBy": "jhon doe"
       }
     ]
    },
