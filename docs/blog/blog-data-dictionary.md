@@ -12,56 +12,31 @@ sidebar_position: 13
 
 ## 2. Overview
 
- In a crypto trading system blog can be a valuable addition to enhance user
- engagement, provide educational resources, and improve overall customer experience.
+A user who wants to buy/sell cryptocurrency with fiat currency or another
+cryptocurrency. They may be new to the cryptocurrency market and want to invest or trade in
+various cryptocurrencies.
 
 ## 3. Data Dictionary (CES V1.0)
 
 | Field Name                | Data Type    | Constraints                           | Description                                                                |
 | ------------------------- | ------------ | ------------------------------------- | -------------------------------------------------------------------------- |
-| id                        | UUID         | DEFAULT uuid_generate_v4() PRIMARY KEY | Unique identifier for the blog                    |
-| user_id                   | UUID         | Foreign KEY                            | User's id                                         |
-| title                     | varchar(255) | NOT NULL                              | Title of the blog                                       |
-| content                   | text         | NOT NULL                              | Content of the blog                                       |
-| author                    | varchar(100) | NOT NULL                              | Name of the author of the blog                         |
-| category                  | varchar(50)  | NOT NULL                              | Category of the blog                                       |
-| tags                      | varchar(255) | NOT NULL                              | Tags associated with the blog                              |
-| image_url                 | varchar(255) | NOT NULL                              | URL of the main image for the blog                         |
-| published_at              | TIMESTAMP    | NOT NULL                              | Timestamp of when the blog was published                     |
-| is_published              | tinyint(1)   | DEFAULT 0                             | Flag indicating whether the blog is published or not       |
-| is_featured               | tinyint(1)   | DEFAULT 0                             | Flag indicating whether the blog is featured or not        |
-| views                     | int          | NOT NULL                              | Number of views for the blog                |
-| created_at                | TIMESTAMP    | NOT NULL                              | Timestamp of when the blog was created                       |
-| updated_at                | TIMESTAMP    | NOT NULL                              | Timestamp of when the blog was last updated                  |
-| created_by                | UUID         | NOT NULL                              | ID of user/admin who is created the blog                    |
-| updated_by                | UUID         | NOT NULL                              | ID of user/admin who is updated the blog     |
-| slug                      | varchar(255) | NOT NULL,UNIQUE                       | Slug indicating  bolg's title or name                       |
-| category_id               | UUID         | Foreign KEY                           | Category  id indicating  Category's id         |
+| id                        | UUID         | PRIMARY KEY, AUTO_INCREMENT, NOT NULL | Unique identifier for the blog                                             |
+| user_id                   | UUID         | NOT NULL                              | User's id                                                             |
+| title                     | varchar(255) | NOT NULL                              | User's first name                                                          |
+| last_name                 | varchar(255) | NOT NULL                              | User's last name                                                           |
+| email                     | varchar(255) | NOT NULL                              | User's email address                                                       |
+| phone_number              | varchar(255) | NOT NULL                              | User's phone number                                                        |
+| password                  | varchar(20)  | NOT NULL                              | Hashed user's password                                                     |
+| is_email_verified         | BOOLEAN      | NOT NULL                              | Flag indicating whether user's the email address verified or not           |
+| status                    | BOOLEAN      | DEFAULT TRUE                          | Flag indicating whether user's status active or not                        |
+| account_status            | tinyint(1)   | DEFAULT TRUE                          | Flag indicating whether user's account status active, suspended or deleted |
+| financial_status          | BOOLEAN      | DEFAULT TRUE                          | Flag indicating whether user's financial status active or not              |
+| maintenance_access_status | BOOLEAN      | DEFAULT TRUE                          | Flag indicating whether user's maintenance access status enable or not     |
+| is_phone_verified         | BOOLEAN      | NOT NULL                              | Flag indicating whether user's the phone number is verified or not         |
+| is_mfa                    | BOOLEAN      | NOT NULL                              | Flag indicating whether user's mfa have or not                             |
+| mfa_type                  | BOOLEAN      | NOT NULL                              | Flag indicating whether user's mfa_type is verified or not                 |
+| created_at                | varchar(20)  | NOT NULL                              | Timestamp when the user account was created                                |
+| updated_at                | varchar(20)  | NOT NULL                              | Timestamp when the user account was last updated                           |
 ``
 ``
 
-
-## 4.Enum fields
-
-#### **IsFeatured**
-
-
-      type: tinyint(1)
-      field name: is_published 
-
-    - title: IS_PUBLISHED_INACTIVE
-      const: 0
-    - title: IS_PUBLISHED_ACTIVE
-      const: 1
-    
-
-#### **IsPublished**
-
-
-      type: tinyint(1)
-      field name: is_featured 
-
-    - title: IS_FEATURED_INACTIVE
-      const: 0
-    - title: IS_FEATURED_ACTIVE
-      const: 1

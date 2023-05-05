@@ -12,9 +12,9 @@ sidebar_position: 14
 
 ## 2. Overview
 
-#### In cryptocurrency exchange system blog can be created in two way.
-##### i.  Admin can be create
-##### ii. User can be create 
+#### In cryptocurrency exchange system user can be created two way.
+##### i.  User can be registerd
+##### ii. Admin can invite new user
 
 
 ## 3. API
@@ -23,12 +23,11 @@ sidebar_position: 14
 
 ```json
 {
-  "Title": "BdNews",
-  "Category": "News",
-  "Content": "content is a",
-  "IsFeatured": "ACTIVE",
-  "ImageUrl": "https://demo.com/storage/images/coin-icons/default.jpg",
-  "IsPublished": "ACTIVE"
+  "FirstName": "John",
+  "LastName": "Smith",
+  "Email": "mail@mail.com",
+  "Phone": "1234567890",
+  "Password": "password"
 }
 ```
 
@@ -36,23 +35,6 @@ sidebar_position: 14
 
 ```json
 {
-  "Data": {
-    "Blog": {
-            "ID": "123e4567-e89b-12d3-a456-426614174111",
-            "UserID": "123e4567-e89b-12d3-a456-426614174000", 
-            "CategoryID": "123e4567-e89b-12d3-a456-426614174000",	
-            "Title": "BdNews",
-            "Category": "News",
-            "Content": "content is a",
-            "IsFeatured": "ACTIVE",
-            "ImageUrl": "https://demo.com/storage/images/coin-icons/default.jpg",
-            "IsPublished": "ACTIVE",
-            "Slug": "BdNews",
-            "CreatedAt": "2023-05-08 09:12:15",
-            "UpdatedAt": "2023-05-08 09:12:15",
-            "CreatedBy": "123e4567-e89b-12d3-a456-426614174025",
-            "UpdatedBy": "123e4567-e89b-12d3-a456-426614174025"
-           }
-         }
+  "ID": "123e4567-e89b-12d3-a456-426614174000"
 }
-```
+`
