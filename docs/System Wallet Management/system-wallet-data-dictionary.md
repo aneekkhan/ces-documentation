@@ -18,22 +18,34 @@ various cryptocurrencies.
 
 ## 3. Data Dictionary (CES V1.0)
 
-| Field Name      | Data Type    | Constraints                           | Description                                                     |
-| --------------- | ------------ | ------------------------------------- | --------------------------------------------------------------- |
-| id              | UUID         | PRIMARY KEY, AUTO_INCREMENT, NOT NULL | Unique identifier for the wallet                                |
-| user_id         | UUID         | Foreign KEY                           | ID of the user who owns the wallet                              |
-| currency_id     | UUID         | Foreign KEY                           | ID of the currency held in the wallet                           |
-| name            | varchar(50)  | NOT NULL                              | Name of the wallet                                              |
-| symbol          | varchar(50)  | Foreign KEY                           | symbol of the trades held in the wallet                         |
-| balance         | varchar(50)  | NOT NULL                              | Current balance in the wallet                                   |
-| is_default      | tinyint(1)   | NOT NULL                              | Flag indicating whether the wallet is the user's default wallet |
-| is_active       | tinyint(1)   | DEFAULT 1                             | Flag indicating whether the wallet is active                    |
-| created_at      | TIMESTAMP    | NOT NULL                              | Timestamp of when the wallet was created                        |
-| created_by      | varchar(255) | NOT NULL                              | User created by                                                 |
-| updated_at      | TIMESTAMP    | NOT NULL                              | Timestamp when the wallet was last updated                      |
-| updated_by      | varchar(255) | NOT NULL                              | User updated by                                                 |
-| last_deposit    | TIMESTAMP    | NOT NULL                              | Timestamp when the wallet was last updated                      |
-| last_withdrawal | TIMESTAMP    | NOT NULL                              | Timestamp of the last withdrawal made from the wallet           |
+| Field Name      | Data Type    | Constraints                                 | Description                                                     |
+| --------------- | ------------ | ------------------------------------------- | --------------------------------------------------------------- |
+| id              | UUID         | UUID DEFAULT uuid_generate_v4() PRIMARY KEY | Unique identifier for the wallet                                |
+| user_id         | UUID         | Foreign KEY                                 | ID of the user who owns the wallet                              |
+| currency_id     | UUID         | Foreign KEY                                 | ID of the currency held in the wallet                           |
+| name            | varchar(50)  | NOT NULL                                    | Name of the wallet                                              |
+| symbol          | varchar(50)  | Foreign KEY                                 | symbol of the trades held in the wallet                         |
+| balance         | varchar(50)  | NOT NULL                                    | Current balance in the wallet                                   |
+| is_default      | tinyint(1)   | DEFAULT 0                                   | Flag indicating whether the wallet is the user's default wallet |
+| is_active       | tinyint(1)   | DEFAULT 0                                   | Flag indicating whether the wallet is 'Enable' or 'Disable'     |
+| created_at      | TIMESTAMP    | NOT NULL                                    | Timestamp of when the wallet was created                        |
+| created_by      | varchar(255) | NOT NULL                                    | User created by                                                 |
+| updated_at      | TIMESTAMP    | NOT NULL                                    | Timestamp when the wallet was last updated                      |
+| updated_by      | varchar(255) | NOT NULL                                    | User updated by                                                 |
+| last_deposit    | TIMESTAMP    | NOT NULL                                    | Timestamp when the wallet was last updated                      |
+| last_withdrawal | TIMESTAMP    | NOT NULL                                    | Timestamp of the last withdrawal made from the wallet           |
 
 `
 `
+
+## 4. Enum Fields
+
+#### **is_default**
+&nbsp; 
+    - IS_DEFAULT_TRUE
+    - IS_DEFAULT_FALSE
+
+#### **is_active**
+&nbsp;
+    - IS_ACTIVE_TRUE
+    - IS_ACTIVE_FALSE

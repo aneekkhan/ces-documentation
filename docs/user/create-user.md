@@ -43,9 +43,9 @@ sidebar_position: 2
   "Phone": "1234567890",
   "Password": "password",
   "CreatedAt": "2020-03-24T06:03:00.348+03:00",
-  "CreatedBy": "2020-03-24T06:03:00.348+03:00",
+  "CreatedBy": "mail@mail.com",
   "UpdatedAt": "2020-03-24T06:03:00.348+03:00",
-  "UpdatedBy": "2020-03-24T06:03:00.348+03:00"
+  "UpdatedBy": "mail@mail.com"
 }
 `
 ```
