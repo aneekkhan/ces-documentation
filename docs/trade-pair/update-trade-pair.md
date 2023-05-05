@@ -30,7 +30,7 @@ sidebar_position: 3
   "MinimumOrderAmount": "22.56",
   "MaximumOrderAmount": "65.89",
   "MakerFee": "99.00",
-  "TakerFee": "90.89",
+  "TakerFee": "90.89"
 }
 ```
 ### Response example:

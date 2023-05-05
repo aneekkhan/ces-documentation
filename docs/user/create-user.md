@@ -13,9 +13,10 @@ sidebar_position: 2
 ## 2. Overview
 
 #### In cryptocurrency exchange system user can be created two way.
-##### i.  User can be registerd
-##### ii. Admin can invite new user
 
+##### i. User can be registerd
+
+##### ii. Admin can invite new user
 
 ## 3. API
 
@@ -35,6 +36,16 @@ sidebar_position: 2
 
 ```json
 {
-  "ID": "123e4567-e89b-12d3-a456-426614174000"
+  "ID": "123e4567-e89b-12d3-a456-426614174000",
+  "FirstName": "John",
+  "LastName": "Smith",
+  "Email": "mail@mail.com",
+  "Phone": "1234567890",
+  "Password": "password",
+  "CreatedAt": "2020-03-24T06:03:00.348+03:00",
+  "CreatedBy": "2020-03-24T06:03:00.348+03:00",
+  "UpdatedAt": "2020-03-24T06:03:00.348+03:00",
+  "UpdatedBy": "2020-03-24T06:03:00.348+03:00"
 }
 `
+```

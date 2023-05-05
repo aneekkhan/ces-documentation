@@ -13,9 +13,10 @@ sidebar_position: 3
 ## 2. Overview
 
 #### In cryptocurrency exchange system user can get details in two way.
-##### i.  User can get by user ID
-##### ii. User can get by user Email
 
+##### i. User can get by user ID
+
+##### ii. User can get by user Email
 
 ## 3. API
 
@@ -41,9 +42,9 @@ sidebar_position: 3
   "AccountStatus": "Active",
   "FinancialStatus": "Active",
   "MaintenanceAccessStatus": "Disable",
-  "IsMfa": "True",
-  "IsPhoneVerified": "Verified",
-  "IsEmailVerified": "Verified",
+  "IsMfa": "Pending",
+  "IsPhoneVerified": "Pending",
+  "IsEmailVerified": "Pending",
   "MfaType": "MfaType",
   "CreatedAt": "2020-03-24T06:03:00.348+03:00",
   "CreatedBy": "2020-03-24T06:03:00.348+03:00",
@@ -84,3 +85,4 @@ sidebar_position: 3
   "UpdatedBy": "2020-03-24T06:03:00.348+03:00"
 }
 `
+```

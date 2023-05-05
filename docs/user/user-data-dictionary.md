@@ -27,16 +27,18 @@ various cryptocurrencies.
 | email                     | varchar(255) | NOT NULL                              | User's email address                                                       |
 | phone_number              | varchar(255) | NOT NULL                              | User's phone number                                                        |
 | password                  | varchar(20)  | NOT NULL                              | Hashed user's password                                                     |
-| is_email_verified         | BOOLEAN      | NOT NULL                              | Flag indicating whether user's the email address verified or not           |
-| status                    | BOOLEAN      | DEFAULT TRUE                          | Flag indicating whether user's status active or not                        |
-| account_status            | tinyint(1)   | DEFAULT TRUE                          | Flag indicating whether user's account status active, suspended or deleted |
-| financial_status          | BOOLEAN      | DEFAULT TRUE                          | Flag indicating whether user's financial status active or not              |
-| maintenance_access_status | BOOLEAN      | DEFAULT TRUE                          | Flag indicating whether user's maintenance access status enable or not     |
-| is_phone_verified         | BOOLEAN      | NOT NULL                              | Flag indicating whether user's the phone number is verified or not         |
-| is_mfa                    | BOOLEAN      | NOT NULL                              | Flag indicating whether user's mfa have or not                             |
-| mfa_type                  | BOOLEAN      | NOT NULL                              | Flag indicating whether user's mfa_type is verified or not                 |
-| created_at                | varchar(20)  | NOT NULL                              | Timestamp when the user account was created                                |
-| updated_at                | varchar(20)  | NOT NULL                              | Timestamp when the user account was last updated                           |
-``
-``
+| is_email_verified         | tinyint(1)   | NOT NULL                              | Flag indicating whether user's the email address verified or not           |
+| status                    | tinyint(1)   | DEFAULT 1                             | Flag indicating whether user's status active or not                        |
+| account_status            | tinyint(1)   | DEFAULT 0                             | Flag indicating whether user's account status active, suspended or deleted |
+| financial_status          | tinyint(1)   | DEFAULT 1                             | Flag indicating whether user's financial status active or not              |
+| maintenance_access_status | tinyint(1)   | DEFAULT 1                             | Flag indicating whether user's maintenance access status enable or not     |
+| is_phone_verified         | tinyint(1)   | DEFAULT 0                             | Flag indicating whether user's the phone number is verified or not         |
+| is_mfa                    | tinyint(1)   | DEFAULT 0                             | Flag indicating whether user's mfa have or not                             |
+| mfa_type                  | tinyint(1)   | DEFAULT 0                             | Flag indicating whether user's mfa_type is verified or not                 |
+| created_at                | TIMESTAMP    | NOT NULL                              | Timestamp when the user account was created                                |
+| created_by                | varchar(255) | NOT NULL                              |                                                                            |
+| updated_at                | TIMESTAMP    | NOT NULL                              | Timestamp when the user account was last updated                           |
+| updated_by                | varchar(255) | NOT NULL                              |                                                                            |
 
+`
+`
