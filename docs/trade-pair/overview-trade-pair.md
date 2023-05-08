@@ -35,7 +35,7 @@ currencies, depending on the trading pairs offered by the platform.
 | maker_fee            | decimal(5,2) | NOT NULL        | Fee charged orders that for add liquidity to the order book (maker orders)|
 | taker_fee            | decimal(5,2) | NOT NULL        | Fee charged orders that for add liquidity to the order book (taker orders)|
 
-## 4.Enum fields
+## 4. Enum fields
 
 #### **IsActive**
 

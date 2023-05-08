@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Create Support Ticket
+# Update Support Ticket
 
 ## 1. version control
 

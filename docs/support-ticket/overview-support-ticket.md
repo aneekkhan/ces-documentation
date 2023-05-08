@@ -35,7 +35,7 @@ customer supporting system by ticketing.
 | updated_by           | VARCHAR(100) | NOT NULL                             | ID of the admin who is assigned support ticket       |
 
 
-## 4.Enum fields
+## 4. Enum fields
 
 #### **Status**
 
