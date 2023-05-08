@@ -43,7 +43,7 @@ sidebar_position: 2
         "Email": "admin@codemen.org",
         "BankName": "Weimann, Emmerich and Koch",
         "Symbol": "USD",
-        "Amount": "677.26155146"
+        "Amount": 677.26155146
       }
     ]
   },

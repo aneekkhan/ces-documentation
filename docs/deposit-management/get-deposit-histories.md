@@ -23,6 +23,7 @@ sidebar_position: 5
   "ID": "123e4567-e89b-12d3-a456-426614174000"
 }
 ```
+
 ### Get System Deposit Response example:
 
 ```json
@@ -34,8 +35,8 @@ sidebar_position: 5
       "LastName": "Smith",
       "Symbol": "USD",
       "DepositStatus": "DEPOSIT_STATUS_UNKNOWN",
-      "Amount": "677.26155146",
-      "Fee": "13.54523102",
+      "Amount": 677.26155146,
+      "Fee": 13.54523102,
       "TransactionTd": "bc5cf4da-da20-4144-948a-ad0e27367dd0"
     }
   }

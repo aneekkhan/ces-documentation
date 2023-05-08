@@ -42,7 +42,7 @@ sidebar_position: 4
         "DepositDate": "2022-06-16 02:26:26",
         "Email": "admin@codemen.org",
         "Symbol": "USD",
-        "Amount": "677.26155146",
+        "Amount": 677.26155146,
         "DepositStatus": "DEPOSIT_STATUS_UNKNOWN"
       }
     ]
