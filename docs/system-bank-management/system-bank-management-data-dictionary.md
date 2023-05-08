@@ -13,7 +13,7 @@ sidebar_position: 1
 ## 2. Overview
 
 #### In a crypto trading system, withdrawal refers to the process of transferring cryptocurrency or fiat currency from a user's trading account to an external wallet or bank account
-DEFAULT uuid_generate_v4() PRIMARY KEY
+
 ## 3. Data Dictionary (CES V1.0)
 
 | Field Name                | Data Type    | Constraints                           | Description                                                                |
