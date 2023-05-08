@@ -12,12 +12,12 @@ sidebar_position: 4
 
 ## 2. Overview
 
-#### In cryptocurrency exchange system coin/currency can get details by ID or Symbol or Name.
+#### In cryptocurrency exchange system coin/currency can Update currency.
 
 
 ## 3. API
 
-### Get Coin/Cuerrncy Request example:
+### Update Coin/Cuerrncy Request example:
 
 ```json
 {
