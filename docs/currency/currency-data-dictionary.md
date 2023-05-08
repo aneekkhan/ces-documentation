@@ -43,8 +43,8 @@ cryptocurrency.
 | total_withdrawal          | VARCHAR(50)  | NOT NULL                                        | Maximum amount of currency withdrawn                                       |
 | created_at                | DATETIME     | NOT NULL                                        | Timestamp when the currency was added                                      |
 | created_by                | UUID         | NOT NULL                                        | ID of admin who has added the currency                                     |
-| updated_at                | VARCHAR(20)  | NOT NULL                                        | Timestamp when the currency was last updated                               |
-| updated_by                | DATETIME     | NOT NULL                                        | ID of admin who has updated the currency                                   |
+| updated_at                | DATETIME     | NOT NULL                                        | Timestamp when the currency was last updated                               |
+| updated_by                | UUID         | NOT NULL                                        | ID of admin who has updated the currency                                   |
 ``
 ``
 
@@ -53,90 +53,62 @@ cryptocurrency.
 &nbsp;
 
       type: tinyint(1)
-      field name: coin_type 
 
-    - title: FIAT
-      const: 2
-    - title: CRYPTO
-      const: 1
-    - title: UNKNOWN
-      const: 0
+    - COIN_TYPE_UNKNOWN
+    - COIN_TYPE_FIAT
+    - COIN_TYPE_CRYPTO
 
 #### **ExchangeStatus**
 &nbsp;
 
       type: tinyint(1)
-      field name: exchange_status 
 
-    - title: INACTIVE
-      const: 2
-    - title: ACTIVE
-      const: 1
-    - title: UNKNOWN
-      const: 0
+    - EXCHANGE_STATUS_UNKNOWN
+    - EXCHANGE_STATUS_ACTIVE
+    - EXCHANGE_STATUS_INACTIVE
 
 #### **DepositStatus**
 &nbsp;
 
       type: tinyint(1)
-      field name: deposit_status 
 
-    - title: INACTIVE
-      const: 2
-    - title: ACTIVE
-      const: 1
-    - title: UNKNOWN
-      const: 0
+    - DEPOSIT_STATUS_UNKNOWN
+    - DEPOSIT_STATUS_ACTIVE
+    - DEPOSIT_STATUS_INACTIVE
 
 #### **WithdrawalStatus**
 &nbsp;
 
       type: tinyint(1)
-      field name: withdrawal_status 
-
-    - title: INACTIVE
-      const: 2
-    - title: ACTIVE
-      const: 1
-    - title: UNKNOWN
-      const: 0
+    
+    - WITHDRAWAL_STATUS_UNKNOWN
+    - WITHDRAWAL_STATUS_ACTIVE
+    - WITHDRAWAL_STATUS_INACTIVE
 
 #### **IsActive**
 &nbsp;
 
       type: tinyint(1)
-      field name: is_active 
 
-    - title: INACTIVE
-      const: 2
-    - title: ACTIVE
-      const: 1
-    - title: UNKNOWN
-      const: 0
+    - IS_ACTIVE_TRUE
+    - IS_ACTIVE_FALSE
 
 #### **DepositFeeType**
 &nbsp;
 
       type: tinyint(1)
-      field name: deposit_fee_type 
 
-    - title: FEE_TYPE_PERCENTAGE
-      const: 2
-    - title: FEE_TYPE_FIXED
-      const: 1
-    - title: UNKNOWN
-      const: 0
+    - DEPOSIT_FEE_TYPE_UNKNOWN
+    - DEPOSIT_FEE_TYPE_FEE_TYPE_FIXED
+    - DEPOSIT_FEE_TYPE_FEE_TYPE_PERCENTAGE
+    
 
 #### **WithdrawalFeeType**
 &nbsp;
 
       type: tinyint(1)
-      field name: withdrawal_fee_type 
 
-    - title: FEE_TYPE_PERCENTAGE
-      const: 2
-    - title: FEE_TYPE_FIXED
-      const: 1
-    - title: UNKNOWN
-      const: 0
+    - WITHDRAWAL_FEE_TYPE_UNKNOWN
+    - WITHDRAWAL_FEE_TYPE_FEE_TYPE_FIXED
+    - WITHDRAWAL_FEE_TYPE_FEE_TYPE_PERCENTAGE
 
