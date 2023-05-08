@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Update Trade Pair
+# Delete Trade Pair
 
 ## 1. version control
 
