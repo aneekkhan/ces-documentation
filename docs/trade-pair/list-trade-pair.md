@@ -21,16 +21,14 @@ sidebar_position: 4
 
 ```json
 {
-  "BaseCurrencyId": "1234",
-  "QuoteCurrencyId": "456",
-  "LastPrice": "124.98",
-  "IsActive": true,
-  "IsDefault": false,
-  "PriceDecimalPlaces": "3",
-  "MinimumOrderAmount": "22.56",
-  "MaximumOrderAmount": "65.89",
-  "MakerFee": "99.00",
-  "TakerFee": "90.89",
+   "SortBy":"DESC",
+   "OrderByData":"name",
+   "SearchTerm":"B",
+   "Limit":"10",
+   "Offset":"0",
+   "Status":"",
+   "StartDate":"2020-03-24T06:03:00.348+03:00",
+   "EndDate":""
 }
 ```
 ### Response example:
@@ -43,8 +41,8 @@ sidebar_position: 4
         "BaseCurrencyId": "1234",
         "QuoteCurrencyId": "456",
         "LastPrice": "124.98",
-        "IsActive": true,
-        "IsDefault": false,
+        "IsActive": "ACTIVE",
+        "IsDefault": "ACTIVE",
         "PriceDecimalPlaces": "3",
         "MinimumOrderAmount": "22.56",
         "MaximumOrderAmount": "65.89",
@@ -59,8 +57,8 @@ sidebar_position: 4
         "BaseCurrencyId": "1234",
         "QuoteCurrencyId": "456",
         "LastPrice": "124.98",
-        "IsActive": true,
-        "IsDefault": false,
+        "IsActive": "ACTIVE",
+        "IsDefault": "INACTIVE",
         "PriceDecimalPlaces": "3",
         "MinimumOrderAmount": "22.56",
         "MaximumOrderAmount": "65.89",
