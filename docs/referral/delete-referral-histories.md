@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Create Referral Histories
+# Delete Referral Histories
 
 ## 1. version control
 
@@ -20,8 +20,7 @@ The reward offered by crypto exchanges for referral programs can vary widely. So
 
 ```json
 {
-  "CommissionAmount": 2000,
-  "Status": "TYPE_UNKNOWN"
+  "ID": "123e4567-e89b-12d3-a456-426614174000"
 }
 ```
 
@@ -30,7 +29,7 @@ The reward offered by crypto exchanges for referral programs can vary widely. So
 ```json
 {
   "Data": {
-    "ReferralHistories": {
+    "Referral": {
       "ID": "123e4567-e89b-12d3-a456-426614174000",
       "UserId": "12d3-e89b-12d3-a456-426614174000",
       "ReferralUserId": "a456-e89b-12d3-a456-426614174000",

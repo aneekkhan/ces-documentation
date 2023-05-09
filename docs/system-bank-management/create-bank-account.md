@@ -45,29 +45,35 @@ sidebar_position: 2
 
 ```json
 {
-  	"ID": "123e4567-e89b-12d3-a456-426614174111",
-	"UserID": "123e4567-e89b-12d3-a456-426614174000",
-  	"ReferenceNumber": "37421575175977",
-  	"BankName": "Sonali Bank",
-  	"AccountName": "Deposite",
-  	"AccountNumber": "1234567890",
-  	"AccountHolder": "Amit Golder",
-	"RoutingNumber": "5456",
-	"SWIFT": "SDFSD45",
-	"IBAN":"SJ5FGSD45",
-	"BIC": "WI5EUR8",
-	"IsPrimary": "IS_PRIMARY_TRUE",
-	"CountryID": 564513164515,
-	"BankAddress": "KDA 17 Khulna Bangladesh",
-	"AccountHolderAddress":"Sonadanga 2nd area",
-	"IsActive": "IS_ACTIVE_TRUE",
-	"IsVerified": "IS_VERIFIED_FALSE",
-	"CreatedAt": "2023-05-08 09:12:15",
-	"UpdatedAt": "2023-05-08 09:12:15",
-	"CreatedBy": "123e4567-e89b-12d3-a456-426614174025",
-	"UpdatedBy": "123e4567-e89b-12d3-a456-426614174025"
+  "Data": {
+    "BankAccount": {
+      "ID": "123e4567-e89b-12d3-a456-426614174111",
+			"UserID": "123e4567-e89b-12d3-a456-426614174000",
+			"ReferenceNumber": "37421575175977",
+			"BankName": "Sonali Bank",
+			"AccountName": "Deposite",
+			"AccountNumber": "1234567890",
+			"AccountHolder": "Amit Golder",
+			"RoutingNumber": "5456",
+			"SWIFT": "SDFSD45",
+			"IBAN":"SJ5FGSD45",
+			"BIC": "WI5EUR8",
+			"IsPrimary": "IS_PRIMARY_TRUE",
+			"CountryID": 564513164515,
+			"BankAddress": "KDA 17 Khulna Bangladesh",
+			"AccountHolderAddress":"Sonadanga 2nd area",
+			"IsActive": "IS_ACTIVE_TRUE",
+			"IsVerified": "IS_VERIFIED_FALSE",
+			"CreatedAt": "2023-05-08 09:12:15",
+			"UpdatedAt": "2023-05-08 09:12:15",
+			"CreatedBy": "123e4567-e89b-12d3-a456-426614174025",
+			"UpdatedBy": "123e4567-e89b-12d3-a456-426614174025"
+    }
+  }
 }
 ```
+
+
 
 ## 4. Enum Fields
 #### **IsPrimary**

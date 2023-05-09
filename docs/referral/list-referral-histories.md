@@ -16,12 +16,25 @@ A crypto exchange system is a platform that allows users to buy, sell, and trade
 
 ## 3. API
 
+### Request example:
+
+```json
+{
+  "SortBy": "ASC",
+  "SortByColumn": "BankName",
+  "SortType": "similar",
+  "SearchTerm": "Like",
+  "StartDate": "2023-02-08 09:12:15",
+  "EndDate": "2023-05-08 09:12:15"
+}
+```
+
 ### Response example:
 
 ```json
 {
   "Data": {
-    "ReferralHistories": [
+    "Referral": [
       {
         "ID": "123e4567-e89b-12d3-a456-426614174000",
         "UserId": "12d3-e89b-12d3-a456-426614174000",
@@ -31,9 +44,8 @@ A crypto exchange system is a platform that allows users to buy, sell, and trade
         "Status": "TYPE_UNKNOWN",
         "FeeCurrency": "USD",
         "IsMaker": "IS_MAKER_TRUE",
+        "CreatedAt": "2020-03-24T06:03:00.348+03:00",
         "UpdatedAt": "2020-03-24T06:03:00.348+03:00",
-        "UpdatedAt": "2020-03-24T06:03:00.348+03:00",
-        "UpdatedAt": "2020-03-24T06:03:00.348+03:00"
       },
       {
         "ID": "123e4567-e89b-12d3-a456-426614174000",
@@ -46,7 +58,6 @@ A crypto exchange system is a platform that allows users to buy, sell, and trade
         "IsMaker": "IS_MAKER_TRUE",
         "CreatedAt": "2020-03-24T06:03:00.348+03:00",
         "UpdatedAt": "2020-03-24T06:03:00.348+03:00",
-        "DeletedAt": "2020-03-24T06:03:00.348+03:00"
       }
     ],
     "Total": 2

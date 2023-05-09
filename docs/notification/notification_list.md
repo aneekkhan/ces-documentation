@@ -20,8 +20,8 @@ sidebar_position: 24
 
 ```json
 {
-  "SortBy": "123e4567-e89b-12d3-a456-426614174000",
-  "SortByColumn": "Asc",
+  "SortBy": "",
+  "SortByColumn": "",
   "Limit": "Limit",
   "Offset": "Offset",
   "SearchTerm": "SearchTerm",
@@ -35,7 +35,7 @@ sidebar_position: 24
 ```json
 {
    "Data": {
-    "Notifications":[
+    "Notification":[
       {
         "ID": "123e4567-e89b-12d3-a456-426614174111",
         "UserID": "123e4567-e89b-12d3-a456-426614174000",
@@ -64,6 +64,6 @@ sidebar_position: 24
       }
     ]
    },
-   "TotalPages": 1
+   "TotalPages": 2
 }
 ```

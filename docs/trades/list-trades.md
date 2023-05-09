@@ -16,6 +16,21 @@ A crypto exchange system is a platform that allows users to buy, sell, and trade
 
 ## 3. API
 
+### Request example:
+
+```json
+{
+  "SortBy": "123e4567-e89b-12d3-a456-426614174000",
+  "SortByColumn": "John",
+  "Status": "Smith",
+  "Limit": "mail@mail.com",
+  "Offset": "1234567890",
+  "SearchTerm": "password",
+  "StartDate": "Active",
+  "EndDate": "Active"
+}
+```
+
 ### Response example:
 
 ```json

@@ -14,7 +14,6 @@ sidebar_position: 2
 
 #### Payment method is a way to pay for the order.
 
-
 ## 3. API
 
 ### Request example:
@@ -23,15 +22,23 @@ sidebar_position: 2
 {
   "Name": "Payment",
   "Description": "Payment Method",
-  "IsActive": "Pay With Cash",
+  "IsActive": "Pay With Cash"
 }
 ```
+
 ### Response example:
 
 ```json
 {
-  "Data":{
-    "Id": "123e4567-e89b-12d3-a456-426614174000",
+  "Data": {
+    "PaymentMethod": {
+      "ID": "123e4567-e89b-12d3-a456-426614174000",
+      "Name": "Payment",
+      "Description": "Payment Method",
+      "IsActive": "Pay With Cash",
+      "CreatedAt": "2021-10-10 12:00:00",
+      "UpdatedAt": "2021-10-10 12:00:00"
+    }
   }
 }
 ```
