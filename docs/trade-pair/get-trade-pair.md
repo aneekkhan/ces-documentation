@@ -38,17 +38,19 @@ sidebar_position: 3
 ```json
 {
   "Data":{
-    "BaseCurrencyId": "1234",
-    "QuoteCurrencyId": "456",
-    "LastPrice": "124.98",
-    "IsActive": "ACTIVE",
-    "IsDefault": "ACTIVE",
-    "PriceDecimalPlaces": "3",
-    "MinimumOrderAmount": "22.56",
-    "MaximumOrderAmount": "65.89",
-    "MakerFee": "99.00",
-    "TakerFee": "90.89",
-    "UpdatedAt":"12-12-2021 12:12:12"
+    "TradePair":{
+      "BaseCurrencyId": "1234",
+      "QuoteCurrencyId": "456",
+      "LastPrice": "124.98",
+      "IsActive": "ACTIVE",
+      "IsDefault": "ACTIVE",
+      "PriceDecimalPlaces": "3",
+      "MinimumOrderAmount": "22.56",
+      "MaximumOrderAmount": "65.89",
+      "MakerFee": "99.00",
+      "TakerFee": "90.89",
+      "UpdatedAt":"12-12-2021 12:12:12"
+    }
   }
 }
 ```

@@ -41,7 +41,7 @@ customer supporting system by ticketing.
 
 
       type: tinyint(1)
-      field name: is_active 
+      field name: status 
 
     - title: OPEN
       const: 4
