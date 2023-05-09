@@ -12,7 +12,7 @@ sidebar_position: 4
 
 ## 2. Overview
 
-#### In cryptocurrency exchange system admin can get Deposit Histories list.
+In cryptocurrency exchange system admin can get Deposit Histories list.
 
 ## 3. API
 

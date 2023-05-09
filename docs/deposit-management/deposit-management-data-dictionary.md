@@ -32,33 +32,39 @@ A crypto exchange deposit system is a platform or feature provided by a cryptocu
 | deposit_date    | TIMESTAMP     | NOT NULL                                    | Date and time of the deposit                                   |
 | deposit_notes   | varchar(255)  | NOT NULL                                    | Notes about the deposit                                        |
 | created_at      | TIMESTAMP     | NOT NULL                                    | Timestamp of when the wallet was created                       |
-| created_by      | varchar(255)  | NOT NULL                                    | User created by                                                |
+| created_by      | UUID          | NOT NULL                                    | ID of admin who has created the Deposit                        |
 | updated_at      | TIMESTAMP     | NOT NULL                                    | Timestamp when the wallet was last updated                     |
-| updated_by      | varchar(255)  | NOT NULL                                    | User updated by                                                |
+| updated_by      | UUID          | NOT NULL                                    | ID of admin who has updated the Deposit                        |
 | deleted_at      | TIMESTAMP     | NOT NULL                                    | Timestamp of when the deposit was soft deleted                 |
-| deleted_by      | varchar(255)  | NOT NULL                                    | User deleted by                                                |
+| deleted_by      | UUID          | NOT NULL                                    | ID of admin who has deleted the Deposit                        |
 
 `
 `
-## 4. Enum Fields 
+
+## 4. Enum Fields
 
 #### **fee_type**
+
 &nbsp;
-    - FEE_TYPE_UNKNOWN  
-    - FEE_TYPE_PENDING
-    - FEE_TYPE_COMPLETED
-    - FEE_TYPE_REJECTED 
+
+- FEE_TYPE_UNKNOWN
+- FEE_TYPE_PENDING
+- FEE_TYPE_COMPLETED
+- FEE_TYPE_REJECTED
 
 #### **deposit_status**
+
 &nbsp;
-    - DEPOSIT_STATUS_UNKNOWN  
-    - DEPOSIT_STATUS_PENDING
-    - DEPOSIT_STATUS_COMPLETED
-    - DEPOSIT_STATUS_REJECTED 
+
+- DEPOSIT_STATUS_UNKNOWN
+- DEPOSIT_STATUS_PENDING
+- DEPOSIT_STATUS_COMPLETED
+- DEPOSIT_STATUS_REJECTED
 
 #### **deposit_method**
-&nbsp;
-    - DEPOSIT_METHOD_UNKNOWN  
-    - DEPOSIT_METHOD_BANK_TRANSFER
-    - DEPOSIT_METHOD_CREDIT_CARD
 
+&nbsp;
+
+- DEPOSIT_METHOD_UNKNOWN
+- DEPOSIT_METHOD_BANK_TRANSFER
+- DEPOSIT_METHOD_CREDIT_CARD
