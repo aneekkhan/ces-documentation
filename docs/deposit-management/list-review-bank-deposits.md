@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# List System Deposit
+# List System Bank Deposits
 
 ## 1. version control
 
@@ -12,12 +12,11 @@ sidebar_position: 2
 
 ## 2. Overview
 
-#### In cryptocurrency exchange system admin can get System Deposit list.
+In cryptocurrency exchange system admin can get System Deposit list.
 
 ## 3. API
 
-### List System Deposit Request example:
-
+### List System Bank Deposits Request example:
 
 ```json
 {
@@ -31,7 +30,7 @@ sidebar_position: 2
 }
 ```
 
-### List System Deposit Response example:
+### List System Bank Deposits Response example:
 
 ```json
 {

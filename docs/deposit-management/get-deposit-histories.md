@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Get System Deposit
+# Get System Deposit Histories
 
 ## 1. version control
 
@@ -12,11 +12,11 @@ sidebar_position: 5
 
 ## 2. Overview
 
-#### In cryptocurrency exchange system user's can view their deposit details
+In cryptocurrency exchange system user's can view their deposit details
 
 ## 3. API
 
-### Get System Deposit Request example:
+### Get System Deposit Histories Request example:
 
 ```json
 {
@@ -24,7 +24,7 @@ sidebar_position: 5
 }
 ```
 
-### Get System Deposit Response example:
+### Get System Deposit Histories Response example:
 
 ```json
 {

@@ -28,12 +28,12 @@ various cryptocurrencies.
 | balance         | decimal(30,10) | NOT NULL                                    | Current balance in the wallet                                   |
 | is_default      | tinyint(1)     | DEFAULT 0                                   | Flag indicating whether the wallet is the user's default wallet |
 | is_active       | tinyint(1)     | DEFAULT 0                                   | Flag indicating whether the wallet is 'Enable' or 'Disable'     |
-| created_at      | TIMESTAMP      | NOT NULL                                    | Timestamp of when the wallet was created                        |
-| created_by      | varchar(255)   | NOT NULL                                    | User created by                                                 |
-| updated_at      | TIMESTAMP      | NOT NULL                                    | Timestamp when the wallet was last updated                      |
-| updated_by      | varchar(255)   | NOT NULL                                    | User updated by                                                 |
 | last_deposit    | TIMESTAMP      | NOT NULL                                    | Timestamp when the wallet was last updated                      |
 | last_withdrawal | TIMESTAMP      | NOT NULL                                    | Timestamp of the last withdrawal made from the wallet           |
+| created_at      | TIMESTAMP      | NOT NULL                                    | Timestamp of when the wallet was created                        |
+| created_by      | UUID           | NOT NULL                                    | ID of admin who has created the Wallet                          |
+| updated_at      | TIMESTAMP      | NOT NULL                                    | Timestamp when the wallet was last updated                      |
+| updated_by      | UUID           | NOT NULL                                    | ID of admin who has updated the Wallet                          |
 
 `
 `
@@ -41,11 +41,15 @@ various cryptocurrencies.
 ## 4. Enum Fields
 
 #### **is_default**
-&nbsp; 
-    - IS_DEFAULT_TRUE
-    - IS_DEFAULT_FALSE
+
+&nbsp;
+
+- IS_DEFAULT_TRUE
+- IS_DEFAULT_FALSE
 
 #### **is_active**
+
 &nbsp;
-    - IS_ACTIVE_TRUE
-    - IS_ACTIVE_FALSE
+
+- IS_ACTIVE_TRUE
+- IS_ACTIVE_FALSE

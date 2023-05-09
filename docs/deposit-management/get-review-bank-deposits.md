@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Get System Deposit
+# Get System Bank Deposit
 
 ## 1. version control
 
@@ -12,18 +12,19 @@ sidebar_position: 3
 
 ## 2. Overview
 
-#### In cryptocurrency exchange system user's can view their deposit details
+In cryptocurrency exchange system user's can view their deposit details
 
 ## 3. API
 
-### Get System Deposit Request example:
+### Get System Bank Deposit Request example:
 
 ```json
 {
   "ID": "123e4567-e89b-12d3-a456-426614174000"
 }
 ```
-### Get System Deposit Response example:
+
+### Get System Bank Deposit Response example:
 
 ```json
 {

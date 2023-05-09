@@ -36,64 +36,76 @@ various cryptocurrencies.
 | is_mfa                    | tinyint(1)                                  | DEFAULT 0   | Flag indicating whether user's mfa have or not                                    |
 | mfa_type                  | tinyint(1)                                  | DEFAULT 0   | Flag indicating whether user's mfa_type is (e.g. verified, pending)               |
 | created_at                | TIMESTAMP                                   | NOT NULL    | Timestamp when the user account was created                                       |
-| created_by                | varchar(255)                                | NOT NULL    | User created                                                                      |
+| created_by                | UUID                                        | NOT NULL    | ID of admin who has created the User                                              |
 | updated_at                | TIMESTAMP                                   | NOT NULL    | Timestamp when the user account was last updated                                  |
-| updated_by                | varchar(255)                                | NOT NULL    | User updated                                                                      |
+| updated_by                | UUID                                        | NOT NULL    | ID of admin who has updated the User                                              |
 
 `
 `
-## 4. Enum Fields 
+
+## 4. Enum Fields
 
 #### **is_email_verified**
+
 &nbsp;
-    - IS_EMAIL_FALSE
-    - IS_EMAIL_TRUE
+
+- IS_EMAIL_FALSE
+- IS_EMAIL_TRUE
 
 #### **status**
+
 &nbsp;
-    - STATUS_UNKNOWN  
-    - STATUS_ACTIVE
-    - STATUS_INACTIVE
+
+- STATUS_UNKNOWN
+- STATUS_ACTIVE
+- STATUS_INACTIVE
 
 #### **account_status**
+
 &nbsp;
-    - ACCOUNT_STATUS_UNKNOWN  
-    - ACCOUNT_STATUS_ACTIVE
-    - ACCOUNT_STATUS_SUSPENDED
-    - ACCOUNT_STATUS_DELETED 
+
+- ACCOUNT_STATUS_UNKNOWN
+- ACCOUNT_STATUS_ACTIVE
+- ACCOUNT_STATUS_SUSPENDED
+- ACCOUNT_STATUS_DELETED
 
 #### **financial_status**
-&nbsp;
-    - FINANCIAL_STATUS_UNKNOWN  
-    - FINANCIAL_STATUS_ACTIVE
-    - FINANCIAL_STATUS_INACTIVE
 
+&nbsp;
+
+- FINANCIAL_STATUS_UNKNOWN
+- FINANCIAL_STATUS_ACTIVE
+- FINANCIAL_STATUS_INACTIVE
 
 #### **maintenance_access_status**
-&nbsp;
-    - MAINTENANCE_ACCESS_STATUS_UNKNOWN  
-    - MAINTENANCE_ACCESS_STATUS_ENABLE
-    - MAINTENANCE_ACCESS_STATUS_DISABLE
 
+&nbsp;
+
+- MAINTENANCE_ACCESS_STATUS_UNKNOWN
+- MAINTENANCE_ACCESS_STATUS_ENABLE
+- MAINTENANCE_ACCESS_STATUS_DISABLE
 
 #### **is_phone_verified**
-&nbsp;
-    - IS_PHONE_VERIFIED_FALSE
-    - IS_PHONE_VERIFIED_TRUE
 
+&nbsp;
+
+- IS_PHONE_VERIFIED_FALSE
+- IS_PHONE_VERIFIED_TRUE
 
 #### **is_mfa**
+
 &nbsp;
-    - IS_MFA_TRUE
-    - IS_MFA_FALSE
+
+- IS_MFA_TRUE
+- IS_MFA_FALSE
 
 #### **mfa_type**
+
 &nbsp;
-    - MFA_TYPE_PASS  
-    - MFA_TYPE_TOTP
-    - MFA_TYPE_CODE
-    - MFA_TYPE_SMS 
-    - MFA_TYPE_RECOVERY
-    - MFA_TYPE_EMAIL
 
-
+- MFA_TYPE_PASS
+- MFA_TYPE_TOTP
+- MFA_TYPE_CODE
+- MFA_TYPE_SMS
+- MFA_TYPE_RECOVERY
+- MFA_TYPE_EMAIL

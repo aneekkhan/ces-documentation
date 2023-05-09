@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# List Trade
+# List Referral Histories
 
 ## 1. version control
 
@@ -21,37 +21,32 @@ A crypto exchange system is a platform that allows users to buy, sell, and trade
 ```json
 {
   "Data": {
-    "Trades": [
+    "ReferralHistories": [
       {
         "ID": "123e4567-e89b-12d3-a456-426614174000",
-        "OrderId": "a456-e89b-12d3-a456-426614174000",
-        "TradePairId": "426614174000-e89b-12d3-a456-426614174000",
         "UserId": "12d3-e89b-12d3-a456-426614174000",
-        "Type": "TYPE_UNKNOWN",
-        "Price": 2000,
-        "Amount": 2,
-        "Fee": 124.98,
-        "Total":4029.96,
+        "ReferralUserId": "a456-e89b-12d3-a456-426614174000",
+        "CommissionAmount": 2000,
+        "CommissionCurrencyId": "426614174000-e89b-12d3-a456-426614174000",
+        "Status": "TYPE_UNKNOWN",
         "FeeCurrency": "USD",
         "IsMaker": "IS_MAKER_TRUE",
-        "CreatedAt": "12-12-2021 12:12:12",
+        "UpdatedAt": "2020-03-24T06:03:00.348+03:00",
+        "UpdatedAt": "2020-03-24T06:03:00.348+03:00",
         "UpdatedAt": "2020-03-24T06:03:00.348+03:00"
-
       },
       {
-        "ID": "12d3-e89b-12d3-a456-426614174000",
-        "OrderId": "e89b-e89b-12d3-a456-426614174000",
-        "TradePairId": "786614174000-e89b-12d3-a456-426614174000",
-        "UserId": "21d3-e89b-12d3-a456-426614174000",
-        "Type": "TYPE_UNKNOWN",
-        "Price": 2000,
-        "Amount": 2,
-        "Fee": 124.98,
-        "Total":4029.96,
+        "ID": "123e4567-e89b-12d3-a456-426614174000",
+        "UserId": "12d3-e89b-12d3-a456-426614174000",
+        "ReferralUserId": "a456-e89b-12d3-a456-426614174000",
+        "CommissionAmount": 2000,
+        "CommissionCurrencyId": "426614174000-e89b-12d3-a456-426614174000",
+        "Status": "TYPE_UNKNOWN",
         "FeeCurrency": "USD",
         "IsMaker": "IS_MAKER_TRUE",
-        "CreatedAt": "12-12-2021 12:12:12",
-        "UpdatedAt": "2020-03-24T06:03:00.348+03:00"
+        "CreatedAt": "2020-03-24T06:03:00.348+03:00",
+        "UpdatedAt": "2020-03-24T06:03:00.348+03:00",
+        "DeletedAt": "2020-03-24T06:03:00.348+03:00"
       }
     ],
     "Total": 2

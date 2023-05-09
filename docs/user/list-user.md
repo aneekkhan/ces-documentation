@@ -53,9 +53,9 @@ sidebar_position: 4
         "IsEmailVerified": "IS_EMAIL_TRUE",
         "MfaType": "MFA_TYPE_RECOVERY",
         "CreatedAt": "2020-03-24T06:03:00.348+03:00",
-        "CreatedBy": "mail@mail.com",
+        "CreatedBy": "456e4567-e89b-12d3-a456-426614174000",
         "UpdatedAt": "2020-03-24T06:03:00.348+03:00",
-        "UpdatedBy": "mail@mail.com"
+        "UpdatedBy": "456e4567-e89b-12d3-a456-426614174000"
       }
     ]
   },
