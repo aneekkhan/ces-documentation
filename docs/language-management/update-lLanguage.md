@@ -33,14 +33,18 @@ sidebar_position: 4
 
 ```json
 {
-  "ID": "123e4567-e89b-12d3-a456-426614174111",
-  "Name": "Arabic",
-  "ShortCode": "arb",
-  "Direction": "PAGE_DIRECTION_RIGHT_TO_LEFT",
-  "Icon": "https://demo-exchange.squaredbyte.com/storage/images/coin-icons/default.png",
-  "IsActive": "IS_ACTIVE_TRUE",
-  "UpdatedAt": "2023-05-08 09:12:15",
-  "UpdatedBy": "123e4567-e89b-12d3-a456-426614174025"
+  "Data": {
+    "Language": {
+      "ID": "123e4567-e89b-12d3-a456-426614174111",
+      "Name": "Arabic",
+      "ShortCode": "arb",
+      "Direction": "PAGE_DIRECTION_RIGHT_TO_LEFT",
+      "Icon": "https://demo-exchange.squaredbyte.com/storage/images/coin-icons/default.png",
+      "IsActive": "IS_ACTIVE_TRUE",
+      "UpdatedAt": "2023-05-08 09:12:15",
+      "UpdatedBy": "123e4567-e89b-12d3-a456-426614174025"
+    }
+  }
 }
 ```
 

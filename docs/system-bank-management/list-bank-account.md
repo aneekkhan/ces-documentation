@@ -84,7 +84,7 @@ sidebar_position: 3
       }
     ]
    },
-   "TotalPages": 1
+   "TotalPages": 2
 }
 ```
 

@@ -36,15 +36,15 @@ sidebar_position: 20
 { 
  "Data": {
     "Role": {            
-            "ID": "123e4567-e89b-12d3-a456-426614174111",
-            "RoleName": "User",
-            "Description": "Description is a",
-            "Access": "access",
-            "Status": "ACTIVE",
-            "UpdatedBy": "456e4567-e89b-12d3-a456-426614174000",
-            "UpdatedAt": "2023-05-08 09:12:15"
-            }
-         }
+      "ID": "123e4567-e89b-12d3-a456-426614174111",
+      "RoleName": "User",
+      "Description": "Description is a",
+      "Access": "access",
+      "Status": "ACTIVE",
+      "UpdatedBy": "456e4567-e89b-12d3-a456-426614174000",
+      "UpdatedAt": "2023-05-08 09:12:15"
+      }
+   }
 }
 ```
 

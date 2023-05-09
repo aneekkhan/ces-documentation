@@ -22,7 +22,6 @@ sidebar_position: 21
 ```json
 {
    "ID":"123e4567-e89b-12d3-a456-426614174000",
-   "RoleName":"Admin"
 }
 ```
 
@@ -32,18 +31,18 @@ sidebar_position: 21
 {
   "Data": {
      "Role": {
-            "ID": "123e4567-e89b-12d3-a456-426614174111", 
-            "RoleName": "Admin",
-            "Description": "Description is a",
-            "Access": "access",
-            "Status": "ACTIVE",
-            "CreatedAt": "2023-05-08 09:12:15",
-            "UpdatedAt": "2023-05-08 09:12:15",
-            "CreatedBy": "123e4567-e89b-12d3-a456-426614174025",
-            "UpdatedBy": "123e4567-e89b-12d3-a456-426614174025",
-            "DeletedAt": "2023-05-08 09:12:15",
-            "DeletedBy": "123e4567-e89b-12d3-a456-426614174025"
-             }
-          }
+         "ID": "123e4567-e89b-12d3-a456-426614174111", 
+         "RoleName": "Admin",
+         "Description": "Description is a",
+         "Access": "access",
+         "Status": "ACTIVE",
+         "CreatedAt": "2023-05-08 09:12:15",
+         "UpdatedAt": "2023-05-08 09:12:15",
+         "CreatedBy": "123e4567-e89b-12d3-a456-426614174025",
+         "UpdatedBy": "123e4567-e89b-12d3-a456-426614174025",
+         "DeletedAt": "2023-05-08 09:12:15",
+         "DeletedBy": "123e4567-e89b-12d3-a456-426614174025"
+      }
+   }
  }
 ```

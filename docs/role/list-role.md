@@ -62,6 +62,6 @@ sidebar_position: 22
             }
            ]
          },
-   "TotalPages": 1
+   "TotalPages": 2
 }
 ```

@@ -21,17 +21,7 @@ sidebar_position: 2
 
 ```json
 {
-  "Id": "123e4567-e89b-12d3-a456-426614174000",
-  "AuthorId": "123e4567-e89b-12d3-a456-426614174000",
-  "Title": "vacation",
-  "Content": "i will be on vacation for 2 weeks",
-  "IsActive": "Active",
-  "Type": "INFO",
-  "StartDate": "2021-10-10 12:00:00",
-  "EndDate": "2021-10-10 12:00:00",
-  "CreatedAt": "2021-10-10 12:00:00",
-  "UpdatedAt": "2021-10-10 12:00:00",
-  "DeletedAt": "2021-10-10 12:00:00",
+  "ID": "123e4567-e89b-12d3-a456-426614174000"
 }
 ```
 ### Response example:
@@ -40,7 +30,7 @@ sidebar_position: 2
 {
   "Data":{
     "Announcment":{
-      "Id": "123e4567-e89b-12d3-a456-426614174000",
+      "ID": "123e4567-e89b-12d3-a456-426614174000",
       "AuthorId": "123e4567-e89b-12d3-a456-426614174000",
       "Title": "vacation",
       "Content": "i will be on vacation for 2 weeks",
@@ -49,8 +39,7 @@ sidebar_position: 2
       "StartDate": "2021-10-10 12:00:00",
       "EndDate": "2021-10-10 12:00:00",
       "CreatedAt": "2021-10-10 12:00:00",
-      "UpdatedAt": "2021-10-10 12:00:00",
-      "DeletedAt": "2021-10-10 12:00:00",
+      "UpdatedAt": "2021-10-10 12:00:00"
     }
   }
 }
