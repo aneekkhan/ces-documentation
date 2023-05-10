@@ -39,6 +39,7 @@ A crypto exchange system is a platform that allows users to buy, sell, and trade
     "Trades": [
       {
         "ID": "123e4567-e89b-12d3-a456-426614174000",
+        "UserId": "12d3-e89b-12d3-a456-426614174001",
         "OrderId": "a456-e89b-12d3-a456-426614174000",
         "TradePairId": "426614174000-e89b-12d3-a456-426614174000",
         "UserId": "12d3-e89b-12d3-a456-426614174000",
@@ -55,6 +56,7 @@ A crypto exchange system is a platform that allows users to buy, sell, and trade
       },
       {
         "ID": "12d3-e89b-12d3-a456-426614174000",
+        "UserId": "12d3-e89b-12d3-a456-426614174002",
         "OrderId": "e89b-e89b-12d3-a456-426614174000",
         "TradePairId": "786614174000-e89b-12d3-a456-426614174000",
         "UserId": "21d3-e89b-12d3-a456-426614174000",

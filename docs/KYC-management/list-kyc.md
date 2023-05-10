@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # List KYC
@@ -47,8 +47,8 @@ sidebar_position: 4
             "Status":"PENDING",
             "DocumentType":"PASSPORT",
             "DocumentNumber":"123456789",
-            "DocumentPhoto":"passport.png",
-            "SelfieWithDocument":"passportselfie.png",
+            "DocumentPhoto":["passport.png"],
+            "SelfieWithDocument":["passportselfie.png"],
             "SubmittedAt":"2020-03-24T06:03:00.348+03:00",
             "ApprevedAt":"",
             "ApprovedBy":"",
@@ -62,8 +62,8 @@ sidebar_position: 4
             "Status":"APPROVED",
             "DocumentType":"DRIVER_LICENSE",
             "DocumentNumber":"47567566444",
-            "DocumentPhoto":"driver-lisence-.png",
-            "SelfieWithDocument":"driver-lisence-selfie.png",
+            "DocumentPhoto":["passport.png"],
+            "SelfieWithDocument":["passportselfie.png"],
             "SubmittedAt":"2020-03-24T06:03:00.348+03:00",
             "ApprevedAt":"2020-03-24T06:03:00.348+03:00",
             "ApprovedBy":"123e4567-e89b-12d3-a456-426614174000",

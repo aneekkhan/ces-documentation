@@ -29,7 +29,7 @@ sidebar_position: 1
 | swift_code                | varchar(255) | NOT NULL                              | SWIFT code for international transfers                                                            |
 | iban                      | varchar(255) | NOT NULL                              | IBAN number for international transfers                                                            |
 | bic                       | varchar(255) | NOT NULL                              | BIC number for international transfers                                                            |
-| is_primary                | tinyint(1)   | DEFAULT 0                             | Indicates if this is the primary bank account                                                           |
+| is_system                 | tinyint(1)   | DEFAULT 0                             | Indicates if this is the system bank account                                              |
 | country_id                | unsignedBigInteger | FOREIGN KEY, NOT NULL, ON DELETE RESTRICT, ON UPDATE CASCADE                                                                            | Country ID indicating the Bank location                                                                  |
 | bank_address              | varchar(255) | NOT NULL                              | Bank Address  indicating the address of the Bank                                                 |
 | account_holder_address    | varchar(255) | NOT NULL                              | Account Holder Address indicating the address of the account owner                                |
