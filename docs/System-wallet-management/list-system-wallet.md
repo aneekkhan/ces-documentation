@@ -20,13 +20,11 @@ sidebar_position: 2
 
 ```json
 {
-  "SortBy": "123e4567-e89b-12d3-a456-426614174000",
-  "SortByColumn": "Asc",
-  "Limit": "Limit",
-  "Offset": "Offset",
-  "SearchTerm": "SearchTerm",
-  "StartDate": "2020-03-24T06:03:00.348+03:00",
-  "EndDate": "2021-03-24T06:03:00.348+03:00"
+  "SortBy": "DESC",
+  "SortByColumn": "id",
+  "Limit": "10",
+  "Offset": "0",
+  "SearchTerm": "",
 }
 ```
 
@@ -38,17 +36,37 @@ sidebar_position: 2
     "Wallets": [
       {
         "ID": "123e4567-e89b-12d3-a456-426614174000",
+        "UserId":"321e4567-e89b-12d3-a456-867676887",
+        "CurrencyId":"321e4567-e89b-12d3-a456-867676887",
+        "Name": "United States Dollar",
         "Icon": "https://demo-exchange.squaredbyte.com/storage/images/coin-icons/default.png",
         "Symbol": "USD",
-        "Name": "United States Dollar",
-        "Balance": 2000
-      },
+        "Balance": 2000,
+        "IsDefault":,
+        "IsActive":,
+        "LastDeposit":,
+        "LastWithdrawal":,
+        "CreatedAt": "123e4567-e89b-12d3-a456-426614174000",
+        "CreatedBy": "2020-03-24T06:03:00.348+03:00",
+        "UpdatedAt": "",
+        "UpdatedBy": "",
+        },
       {
-        "ID": "321e4567-e89b-12d3-a456-426614174000",
+        "ID": "565676745656-e89b-12d3-a456-426614174000",
+        "UserId":"321e4567-e89b-12d3-a456-867676887",
+        "CurrencyId":"321e4567-e89b-12d3-a456-867676887",
+        "Name": "Bitcoin",
         "Icon": "https://demo-exchange.squaredbyte.com/storage/images/coin-icons/default.png",
         "Symbol": "BTC",
-        "Name": "Bitcoin",
-        "Balance": 0.00005000
+        "Balance": 2000,
+        "IsDefault":,
+        "IsActive":,
+        "LastDeposit":,
+        "LastWithdrawal":,
+        "CreatedAt": "123e4567-e89b-12d3-a456-426614174000",
+        "CreatedBy": "2020-03-24T06:03:00.348+03:00",
+        "UpdatedAt": "",
+        "UpdatedBy": "",
       }
     ]
   },

@@ -43,7 +43,7 @@ A crypto exchange deposit system is a platform or feature provided by a cryptocu
 
 ## 4. Enum Fields
 
-#### **fee_type**
+#### **FeeType**
 
 &nbsp;
 
@@ -52,7 +52,7 @@ A crypto exchange deposit system is a platform or feature provided by a cryptocu
 - FEE_TYPE_COMPLETED
 - FEE_TYPE_REJECTED
 
-#### **deposit_status**
+#### **DepositStatus**
 
 &nbsp;
 
@@ -61,7 +61,7 @@ A crypto exchange deposit system is a platform or feature provided by a cryptocu
 - DEPOSIT_STATUS_COMPLETED
 - DEPOSIT_STATUS_REJECTED
 
-#### **deposit_method**
+#### **DepositMethod**
 
 &nbsp;
 

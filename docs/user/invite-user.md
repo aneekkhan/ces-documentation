@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Create User
+# Invite User
 
 ## 1. version control
 
@@ -43,11 +43,16 @@ sidebar_position: 2
       "LastName": "Smith",
       "Email": "mail@mail.com",
       "Phone": "1234567890",
-      "Password": "password",
-      "CreatedAt": "2020-03-24T06:03:00.348+03:00",
-      "CreatedBy": "456e4567-e89b-12d3-a456-426614174000",
-      "UpdatedAt": "2020-03-24T06:03:00.348+03:00",
-      "UpdatedBy": "456e4567-e89b-12d3-a456-426614174000"
+      "Status": "STATUS_UNKNOWN",
+      "IsPhoneVerified": "IS_PHONE_VERIFIED_FALSE",
+      "IsEmailVerified": "IS_EMAIL_FALSE",
+      "IsMfa": "IS_MFA_FALSE",
+      "MfaType": "MFA_TYPE_RECOVERY",
+      "KYCLevel":"KYC_LEVEL_UNKNOWN",
+      "CreatedAt": "123e4567-e89b-12d3-a456-426614174000",
+      "CreatedBy": "2020-03-24T06:03:00.348+03:00",
+      "UpdatedAt": "",
+      "UpdatedBy": "",
     }
   }
 }

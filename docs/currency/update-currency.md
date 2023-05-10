@@ -22,9 +22,7 @@ sidebar_position: 4
 ```json
 {
    "ID":"123e4567-e89b-12d3-a456-426614174000",
-   "CoinType":"CRYPTO",
    "Icon":"btcsssss.png",
-   "Decimals":0,
    "ExchangeStatus":"ACTIVE",
    "DepositStatus":"ACTIVE",
    "WithdrawalStatus":"ACTIVE",

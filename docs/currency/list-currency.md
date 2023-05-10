@@ -27,8 +27,6 @@ sidebar_position: 4
    "Limit":"10",
    "Offset":"0",
    "Status":"",
-   "StartDate":"2020-03-24T06:03:00.348+03:00",
-   "EndDate":""
 }
 ```
 
