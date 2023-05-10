@@ -20,13 +20,11 @@ The reward offered by crypto exchanges for referral programs can vary widely. So
 
 ```json
 {
-  "UserId": "12d3-e89b-12d3-a456-426614174000",
+  "ReferredId": "12d3-e89b-12d3-a456-426614174000",
   "ReferralUserId": "a456-e89b-12d3-a456-426614174000",
-  "CommissionAmount": 2000,
-  "CommissionCurrencyId": "426614174000-e89b-12d3-a456-426614174000",
-  "Status": "TYPE_UNKNOWN",
+  "Amount": 2000,
   "FeeCurrency": "USD",
-  "IsMaker": "IS_MAKER_TRUE",
+  "ReferrerType": "Referrer"
 }
 ```
 
@@ -37,9 +35,9 @@ The reward offered by crypto exchanges for referral programs can vary widely. So
   "Data": {
     "Referral": {
       "ID": "123e4567-e89b-12d3-a456-426614174000",
-      "UserId": "12d3-e89b-12d3-a456-426614174000",
+      "ReferredId": "12d3-e89b-12d3-a456-426614174000",
       "ReferralUserId": "a456-e89b-12d3-a456-426614174000",
-      "CommissionAmount": 2000,
+      "Amount": 2000,
       "CommissionCurrencyId": "426614174000-e89b-12d3-a456-426614174000",
       "Status": "TYPE_UNKNOWN",
       "FeeCurrency": "USD",

@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Update Payment Method
+# Delete Payment Method
 
 ## 1. version control
 

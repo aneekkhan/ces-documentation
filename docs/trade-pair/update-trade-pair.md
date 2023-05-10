@@ -22,12 +22,9 @@ sidebar_position: 3
 ```json
 {
   "ID":"123e4567-e89b-12d3-a456-426614174000",
-  "BaseCurrencyId": "1234",
-  "QuoteCurrencyId": "456",
   "LastPrice": "124.98",
   "IsActive": "ACTIVE",
   "IsDefault": "INACTIVE",
-  "PriceDecimalPlaces": "3",
   "MinimumOrderAmount": "22.56",
   "MaximumOrderAmount": "65.89",
   "MakerFee": "99.00",
@@ -41,7 +38,7 @@ sidebar_position: 3
   "Data":{
     "TradePair":{
       "ID":"123e4567-e89b-12d3-a456-426614174000",
-      "BaseCurrencyId": "1234",
+      "BaseCurrency": "1234",
       "QuoteCurrencyId": "456",
       "LastPrice": "124.98",
       "IsActive": "ACTIVE",

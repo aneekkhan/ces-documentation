@@ -22,7 +22,7 @@ currencies, depending on the trading pairs offered by the platform.
 | ------------------   | ------------ | ------------------------------------ | ---------------------------------------------------- |
 | id                   | UUID        | DEFAULT uuid_generate_v4() PRIMARY KEY| Unique identifier for the trade pair                 |
 | name                 | varchar(50)  | NOT NULL                             | Name of the trade pair                               |
-| base_currency_id     | int          | FOREIGN KEY                          | Identifier for the base currency                     |
+| base_currency        | int          | FOREIGN KEY                          | Identifier for the base currency                     |
 | quote_currency_id    | int          | FOREIGN KEY                          | Identifier for the quote currency                    |
 | price_decimal_places | int          | NOT NULL                             | Number of decimal places for the price of trade pair |
 | minimum_order_amount | decimal(18,8)| NOT NULL                             | Minimum amount allowed for an order                  |
@@ -34,6 +34,8 @@ currencies, depending on the trading pairs offered by the platform.
 | deleted_at           | datetime     | NOT NULL                             | Timestamp of when the trade pair was deleted         |
 | maker_fee            | decimal(5,2) | NOT NULL        | Fee charged orders that for add liquidity to the order book (maker orders)|
 | taker_fee            | decimal(5,2) | NOT NULL        | Fee charged orders that for add liquidity to the order book (taker orders)|
+| taker_fee_type       | varchar(50) | NOT NULL         | Fee type charged orders that for add liquidity to the order book (taker orders)|
+| maker_fee_type       | varchar(50) | NOT NULL         | Fee type charged orders that for add liquidity to the order book (maker orders)|
 
 ## 4. Enum fields
 
