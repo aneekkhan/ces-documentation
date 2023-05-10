@@ -18,32 +18,29 @@ A crypto exchange system is a platform that allows users to buy, sell, and trade
 
 | Field Name    | Data Type      | Constraints                            | Description                                           |
 | ------------- | -------------- | -------------------------------------- | ----------------------------------------------------- |
-| id            | UUID           | DEFAULT uuid_generate_v4() PRIMARY KEY | Unique identifier for the trade pair                  |
-| order_id      | UUID           | FOREIGN KEY                            | ID of the order associated with the trade             |
-| trade_pair_id | UUID           | FOREIGN KEY                            | ID of the trade pair involved in the trade            |
-| user_id       | UUID           | FOREIGN KEY                            | ID of the user who initiated the trade                |
-| type          | tinyint(1)     | DEFAULT 0                              | Type of trade (e.g. buy, sell)                        |
-| price         | decimal(20,10) | NOT NULL                               | Price of the traded asset                             |
+| id            | UUID           | DEFAULT uuid_generate_v4() PRIMARY KEY | Unique identifier for the trade pair                             |
+| order_id      | UUID           | FOREIGN KEY                            | ID of the order associated with the trade                        |
+| trade_pair_id | UUID           | FOREIGN KEY                            | ID of the trade pair involved in the trade                        |
+| user_id       | UUID           | FOREIGN KEY                            | ID of the user who initiated the trade                            |
+| price         | decimal(20,10) | NOT NULL                               | Price of the traded asset                            |
 | amount        | decimal(20,10) | NOT NULL                               | Amount of the traded asset                            |
-| total         | decimal(20,10) | NOT NULL                               | total of the traded asset                             |
-| fee           | decimal(20,10) | NOT NULL                               | Fee charged for the trade                             |
-| fee_currency  | varchar(10)    | NOT NULL                               | Currency in which the fee was charged                 |
-| is_maker      | tinyint(1)     | DEFAULT 0                              | Flag indicating whether the user was a maker or taker |
-| created_at    | datetime       | NOT NULL                               | Timestamp of when the trade pair was created          |
-| updated_at    | datetime       | NOT NULL                               | Timestamp of when the trade pair was updated          |
+| total         | decimal(20,10) | NOT NULL                               | total of the traded asset                            |
+| maker_id      | UUID           | FOREIGN KEY                            | ID of the user associated with the  maker                       |
+| created_at    | datetime       | NOT NULL                               | Timestamp of when the trade pair was created                      |
+| updated_at    | datetime       | NOT NULL                               | Timestamp of when the trade pair was updated                      |
+| buy_id        | UUID           | FOREIGN KEY                            | ID of the crypto that is bought                           |
+| sell_id       | UUID           | FOREIGN KEY                            | ID of the crypto that is sold            |
+| buyer_id      | UUID           | FOREIGN KEY                            | ID of the user who bought the crypto           |
+| seller_id     | UUID           | FOREIGN KEY                            | ID of the user who sold the crypto           |
+| sell_order_id | UUID           | FOREIGN KEY                            | ID of the order by which the seller sell  the crypto           |
+| buy_order_id   | UUID          | FOREIGN KEY                            | ID of the order by which the buyer sell  the crypto           |
+| taker_fee      | decimal(20,10)| NOT NULL                               | Fee charged for the trade  taker            |
+| maker_fee      | decimal(20,10)| NOT NULL                               | Fee charged for the trade  maker            |
+| taker_fee_type | varchar(50)   | NOT NULL                               | Fee type for charged orders that for add liquidity to the order book (taker orders)|
+| maker_fee_type | varchar(50)   | NOT NULL                               | Fee type for charged orders that for add liquidity to the order book (maker orders)|
+| buyer_fee_currency | varchar(10)| NOT NULL                               | Fee Currency in which the buyer was charged           |
+| seller_fee_currency | varchar(10)| NOT NULL                               | Fee Currency in which the seller was charged    |
 
-## 4. Enum Fields
 
-#### **type**
 
-&nbsp; 
- - TYPE_UNKNOWN  
- - TYPE_BUY 
- - TYPE_SELL
 
-#### **is_maker**
-
-&nbsp; 
- - IS_MAKER_UNKNOWN  
- - IS_MAKER_TRUE 
- - IS_MAKER_FALSE

@@ -26,9 +26,7 @@ sidebar_position: 4
    "SearchTerm":"B",
    "Limit":"10",
    "Offset":"0",
-   "Status":"",
-   "StartDate":"2020-03-24T06:03:00.348+03:00",
-   "EndDate":""
+   "Status":""
 }
 ```
 ### Response example:
@@ -39,7 +37,7 @@ sidebar_position: 4
     "TradePair":[
       {
         "ID":"123e4567-e89b-12d3-a456-426614174000",
-        "BaseCurrencyId": "1234",
+        "BaseCurrency": "1234",
         "QuoteCurrencyId": "456",
         "LastPrice": "124.98",
         "IsActive": "ACTIVE",
@@ -56,7 +54,7 @@ sidebar_position: 4
       },
       {
         "ID":"123e4567-e89b-12d3-a456-426614174000",
-        "BaseCurrencyId": "1234",
+        "BaseCurrency": "1234",
         "QuoteCurrencyId": "456",
         "LastPrice": "124.98",
         "IsActive": "ACTIVE",

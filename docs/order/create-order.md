@@ -27,14 +27,9 @@ sidebar_position: 2
    "Type":"BUY",
    "Quantity":"0.09356620",
    "Price":"8947.90000000",
-   "StopLimit":"8947.90000009",
+   "StopLimit":"",
    "Total":"837.22103699",
-   "FeeType":"MAKER",
    "FeeAmount":"0.00000020",
-   "FeeCurrencyId":"3456786e-e89b-12d3-a456-4645626778",
-   "ExecutedQuantity":".0004",
-   "ExecutedTotal":"4.0006",
-   "CreatedBy":"456e4567-e89b-12d3-a456-426614174000"
 }
 ```
 
@@ -52,7 +47,7 @@ sidebar_position: 2
          "Status":"OPEN",
          "Quantity":"0.09356620",
          "Price":"8947.90000000",
-         "StopLimit":"8947.90000009",
+         "StopLimit":"",
          "Total":"837.22103699",
          "FeeType":"MAKER",
          "FeeAmount":"0.00000020",

@@ -20,7 +20,7 @@ sidebar_position: 2
 
 ```json
 {
-  "BaseCurrencyId": "1234",
+  "BaseCurrency": "1234",
   "QuoteCurrencyId": "456",
   "LastPrice": "124.98",
   "IsActive": true,
@@ -29,7 +29,10 @@ sidebar_position: 2
   "MinimumOrderAmount": "22.56",
   "MaximumOrderAmount": "65.89",
   "MakerFee": "99.00",
-  "TakerFee": "90.89"
+  "TakerFee": "90.89",
+  "MakerFeeType": "MakerFeeType",
+  "TakerFeeType": "TakerFeeType",
+  "Name": "Amit"
 }
 ```
 
@@ -40,7 +43,7 @@ sidebar_position: 2
   "Data":{
     "TradePair":{
       "ID":"123e4567-e89b-12d3-a456-426614174000",
-      "BaseCurrencyId": "1234",
+      "BaseCurrency": "1234",
       "QuoteCurrencyId": "456",
       "LastPrice": "124.98",
       "IsActive": "ACTIVE",
@@ -50,6 +53,9 @@ sidebar_position: 2
       "MaximumOrderAmount": "65.89",
       "MakerFee": "99.00",
       "TakerFee": "90.89",
+      "MakerFeeType": "MakerFeeType",
+      "TakerFeeType": "TakerFeeType",
+      "Name": "Amit",
       "UpdatedAt":"12-12-2021 12:12:12"
     }
   }
