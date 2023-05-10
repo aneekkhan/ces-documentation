@@ -29,11 +29,11 @@ cryptocurrency.
 | deposit_status            | tinyint(1)   | DEFAULT 0                                       | Flag indicating whether currency deposit status active or not              |
 | withdrawal_status         | tinyint(1)   | DEFAULT 0                                       | Flag indicating whether currency withdrawal status active or not           |
 | is_active                 | tinyint(1)   | DEFAULT 0                                       | Flag indicating whether the currency is active                             |
-| deposit_fee               | VARCHAR(50)  | NOT NULL                                        | Value of the fee charged on each deposit                                   |
-| deposit_fee_type          | tinyint(1)   | DEFAULT 0                                       | Type of fee charged on each deposit (e.g. fixed,percentage)                |
 | minimum_deposit_amount    | VARCHAR(50)  | NOT NULL                                        | Minimum amount that can be deposited                                       |
 | maximum_deposit_amount    | VARCHAR(50)  | NOT NULL                                        | Minimum amount that can be deposited                                       |
 | daily_deposit_limit       | VARCHAR(50)  | NOT NULL                                        | Maximum amount that can be deposited in a day                              |
+| deposit_fee               | VARCHAR(50)  | NOT NULL                                        | Value of the fee charged on each deposit                                   |
+| deposit_fee_type          | tinyint(1)   | DEFAULT 0                                       | Type of fee charged on each deposit (e.g. fixed,percentage)                |
 | total_deposit             | VARCHAR(50)  | NOT NULL                                        | Maximum amount of currency deposited                                       |
 | withdrawal_fee            | VARCHAR(50)  | NOT NULL                                        | Value of the fee charged on each withdrawal                                |
 | withdrawal_fee_type       | tinyint(1)   | DEFAULT 0                                       | Type of fee charged on each withdrawal(e.g. fixed, percentage)             |
@@ -52,16 +52,12 @@ cryptocurrency.
 #### **CoinType**
 &nbsp;
 
-      type: tinyint(1)
-
     - COIN_TYPE_UNKNOWN
     - COIN_TYPE_FIAT
     - COIN_TYPE_CRYPTO
 
 #### **ExchangeStatus**
 &nbsp;
-
-      type: tinyint(1)
 
     - EXCHANGE_STATUS_UNKNOWN
     - EXCHANGE_STATUS_ACTIVE
@@ -70,16 +66,12 @@ cryptocurrency.
 #### **DepositStatus**
 &nbsp;
 
-      type: tinyint(1)
-
     - DEPOSIT_STATUS_UNKNOWN
     - DEPOSIT_STATUS_ACTIVE
     - DEPOSIT_STATUS_INACTIVE
 
 #### **WithdrawalStatus**
 &nbsp;
-
-      type: tinyint(1)
     
     - WITHDRAWAL_STATUS_UNKNOWN
     - WITHDRAWAL_STATUS_ACTIVE
@@ -88,15 +80,11 @@ cryptocurrency.
 #### **IsActive**
 &nbsp;
 
-      type: tinyint(1)
-
     - IS_ACTIVE_TRUE
     - IS_ACTIVE_FALSE
 
 #### **DepositFeeType**
 &nbsp;
-
-      type: tinyint(1)
 
     - DEPOSIT_FEE_TYPE_UNKNOWN
     - DEPOSIT_FEE_TYPE_FEE_TYPE_FIXED
@@ -105,8 +93,6 @@ cryptocurrency.
 
 #### **WithdrawalFeeType**
 &nbsp;
-
-      type: tinyint(1)
 
     - WITHDRAWAL_FEE_TYPE_UNKNOWN
     - WITHDRAWAL_FEE_TYPE_FEE_TYPE_FIXED

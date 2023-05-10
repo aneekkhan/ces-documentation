@@ -20,13 +20,10 @@ In cryptocurrency exchange system admin can Update user list.
 
 ```json
 {
+  "ID": "123e4567-e89b-12d3-a456-426614174000",
   "FirstName": "John",
   "LastName": "Smith",
-  "RoleName": "John",
-  "is_email_verified": "IS_EMAIL_TRUE",
-  "account_status": "ACCOUNT_STATUS_UNKNOWN",
-  "financial_status": "FINANCIAL_STATUS_UNKNOWN",
-  "maintenance_access_status": "MAINTENANCE_ACCESS_STATUS_UNKNOWN"
+  "Status": "STATUS_UNKNOWN",
 }
 ```
 
@@ -41,16 +38,16 @@ In cryptocurrency exchange system admin can Update user list.
       "LastName": "Smith",
       "Email": "mail@mail.com",
       "Phone": "1234567890",
-      "Password": "password",
-      "RoleName": "John",
-      "is_email_verified": "IS_EMAIL_TRUE",
-      "account_status": "ACCOUNT_STATUS_UNKNOWN",
-      "financial_status": "FINANCIAL_STATUS_UNKNOWN",
-      "maintenance_access_status": "MAINTENANCE_ACCESS_STATUS_UNKNOWN",
+      "Status": "STATUS_UNKNOWN",
+      "IsPhoneVerified": "IS_PHONE_VERIFIED_FALSE",
+      "IsEmailVerified": "IS_EMAIL_FALSE",
+      "IsMfa": "IS_MFA_FALSE",
+      "MfaType": "MFA_TYPE_RECOVERY",
+      "KYCLevel":"KYC_LEVEL_UNKNOWN",
       "CreatedAt": "2020-03-24T06:03:00.348+03:00",
-      "CreatedBy": "456e4567-e89b-12d3-a456-426614174000",
+      "CreatedBy": "123e4567-e89b-12d3-a456-426614174000",
       "UpdatedAt": "2020-03-24T06:03:00.348+03:00",
-      "UpdatedBy": "456e4567-e89b-12d3-a456-426614174000"
+      "UpdatedBy": "123e4567-e89b-12d3-a456-426614174000",
     }
   }
 }

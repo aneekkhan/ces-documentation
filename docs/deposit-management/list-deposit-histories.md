@@ -21,13 +21,14 @@ In cryptocurrency exchange system admin can get Deposit Histories list.
 
 ```json
 {
-  "SortBy": "123e4567-e89b-12d3-a456-426614174000",
-  "SortByColumn": "Asc",
-  "Limit": "Limit",
-  "Offset": "Offset",
-  "SearchTerm": "SearchTerm",
-  "StartDate": "2020-03-24T06:03:00.348+03:00",
-  "EndDate": "2021-03-24T06:03:00.348+03:00"
+  "SortBy": "DESC",
+  "SortByColumn": "id",
+  "Limit": "10",
+  "Offset": "0",
+  "SearchTerm": "",
+  "Email":"",
+  "DepositeMethod":"",
+  "TransactionId":"",
 }
 ```
 
@@ -43,10 +44,12 @@ In cryptocurrency exchange system admin can get Deposit Histories list.
         "Email": "admin@codemen.org",
         "Symbol": "USD",
         "Amount": 677.26155146,
-        "DepositStatus": "DEPOSIT_STATUS_UNKNOWN"
+        "DepositStatus": "DEPOSIT_STATUS_UNKNOWN",
+        "DepositeMethod":"DEPOSIT_METHOD_CREDIT_CARD",
+        "TransactionId":"34567654327657567",
       }
     ]
   },
-  "TotalWallets": 2
+  "TotalWallets": 1
 }
 ```
