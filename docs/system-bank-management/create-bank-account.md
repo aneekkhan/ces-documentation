@@ -33,7 +33,7 @@ sidebar_position: 2
 	"SWIFT": "SDFSD45",
 	"IBAN":"SJ5FGSD45",
 	"BIC": "WI5EUR8",
-	"IsPrimary": "IS_PRIMARY_TRUE",
+	"IsSystem": "IS_SYSTEM_TRUE",
 	"CountryID": 564513164515,
 	"BankAddress": "KDA 17 Khulna Bangladesh",
 	"AccountHolderAddress":"Sonadanga 2nd area",
@@ -58,7 +58,7 @@ sidebar_position: 2
 			"SWIFT": "SDFSD45",
 			"IBAN":"SJ5FGSD45",
 			"BIC": "WI5EUR8",
-			"IsPrimary": "IS_PRIMARY_TRUE",
+			"IsSystem": "IS_SYSTEM_TRUE",
 			"CountryID": 564513164515,
 			"BankAddress": "KDA 17 Khulna Bangladesh",
 			"AccountHolderAddress":"Sonadanga 2nd area",
@@ -76,11 +76,11 @@ sidebar_position: 2
 
 
 ## 4. Enum Fields
-#### **IsPrimary**
+#### **IsSystem**
 &nbsp;
 
-	IS_PRIMARY_FALSE
-	IS_PRIMARY_TRUE
+	IS_SYSTEM_FALSE
+	IS_SYSTEM_TRUE
 
 #### **IsActive**
 &nbsp;

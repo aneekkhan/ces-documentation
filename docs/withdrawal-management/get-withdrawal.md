@@ -37,7 +37,7 @@ sidebar_position: 2
       "CurrencyName": "United States Dollar",
       "WithdrawalStatus": "WITHDRAWAL_STATUS_UNKNOWN",
       "Amount": 0.72934774,
-      "TotalAmount": 643.23359243,
+      "NetAmount": 643.23359243,
       "FeeType": "FEE_TYPE_FLAT",
       "FeeAmount": 0.01458695,
       "WithdrawalMethod": "WITHDRAWAL_METHOD_BANK_TRANSFER",
@@ -65,7 +65,7 @@ sidebar_position: 2
     WITHDRAWAL_STATUS_PENDING
     WITHDRAWAL_STATUS_COMPLETED
     WITHDRAWAL_STATUS_PROCESSING
-    WITHDRAWAL_STATUS_CANCEL
+    WITHDRAWAL_STATUS_CANCELED
 
 #### **FeeType**
 &nbsp;

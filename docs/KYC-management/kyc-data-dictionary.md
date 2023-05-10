@@ -23,8 +23,8 @@ KYC procedures typically involve collecting personal information, such as a user
 | status                    | tinyint(1)   | DEFAULT 0                                       | Status of the verification request (e.g. pending,approved,rejected)                                       |
 | document_type             | tinyint(1)   | DEFAULT 0                                       | Type of document being submitted for verification (e.g. passport, driver's license, ID card)              |
 | document_number           | VARCHAR(50)  | NOT NULL                                        | Document number being submitted for verification                                                          |
-| document_photo            | VARCHAR(100) | NOT NULL                                        | URL or file path of the photo of the document being submitted                                             |
-| selfie_with_document      | VARCHAR(100) | NOT NULL                                        | URL or file path of the selfie photo of the user holding the document and a paper with verification code  |
+| document_photo            | text array | NOT NULL                                        | URL or file path of the photo of the document being submitted                                             |
+| selfie_with_document      | text array | NOT NULL                                        | URL or file path of the selfie photo of the user holding the document and a paper with verification code  |
 | submitted_at              | DATETIME     | NOT NULL                                        | Timestamp of when the verification request was submitted                                                  |
 | approved_at               | DATETIME     | NOT NULL                                        |Timestamp when the verification request has been approved                                                  |
 | approved_by               | UUID         | FOREIGN KEY                                     | ID of the admin who approved the verification request                                                     |
