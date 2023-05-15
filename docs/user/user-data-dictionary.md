@@ -24,6 +24,7 @@ various cryptocurrencies.
 | role_id                   | UUID                                        | NOT NULL                                     | User's role id                                                                    |
 | first_name                | varchar(255)                                | NOT NULL                                     | User's first name                                                                 |
 | last_name                 | varchar(255)                                | NOT NULL                                     | User's last name                                                                  |
+| profile_image             | varchar(255)                                | NOT NULL                                     | User's profile image                                                              |
 | email                     | varchar(255)                                | NOT NULL                                     | User's email address                                                              |
 | phone_number              | varchar(255)                                | NOT NULL                                     | User's phone number                                                               |
 | password                  | varchar(20)                                 | NOT NULL                                     | Hashed user's password                                                            |
