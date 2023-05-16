@@ -23,8 +23,6 @@ In cryptocurrency exchange system admin can get Deposit Histories list.
 {
   "SortBy": "DESC",
   "SortByColumn": "id",
-  "Limit": "10",
-  "Offset": "0",
   "SearchTerm": "",
   "Email":"",
   "DepositeMethod":"",
@@ -41,7 +39,6 @@ In cryptocurrency exchange system admin can get Deposit Histories list.
       {
         "ID": "123e4567-e89b-12d3-a456-426614174000",
         "DepositDate": "2022-06-16 02:26:26",
-        "Email": "admin@codemen.org",
         "Symbol": "USD",
         "Amount": 677.26155146,
         "DepositStatus": "DEPOSIT_STATUS_UNKNOWN",
