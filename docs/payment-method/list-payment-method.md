@@ -21,7 +21,7 @@ sidebar_position: 2
 ```json
 {
   "SortBy": "DESC",
-  "OrderByData": "name",
+  "SortByColumn": "name",
   "SearchTerm": "B",
   "Status": "",
   "StartDate": "2020-03-24T06:03:00.348+03:00",
