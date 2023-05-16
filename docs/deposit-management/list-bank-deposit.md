@@ -23,10 +23,11 @@ In cryptocurrency exchange system admin can get Deposit Histories list.
 {
   "SortBy": "DESC",
   "SortByColumn": "id",
-  "SearchTerm": "",
-  "Email":"",
-  "DepositeMethod":"",
-  "TransactionId":"",
+  "SearchTerm": "Like",
+  "TransactionID": "bc5cf4da-da20-4144-948a-ad0e27367dd0",
+  "DepositStatus": "DEPOSIT_STATUS_UNKNOWN",
+  "StartDate": "2023-02-08 09:12:15",
+  "EndDate": "2023-02-08 09:12:15"
 }
 ```
 
@@ -42,8 +43,7 @@ In cryptocurrency exchange system admin can get Deposit Histories list.
         "Symbol": "USD",
         "Amount": 677.26155146,
         "DepositStatus": "DEPOSIT_STATUS_UNKNOWN",
-        "DepositeMethod":"DEPOSIT_METHOD_CREDIT_CARD",
-        "TransactionId":"34567654327657567",
+        "TransactionId":"34567654327657567"
       }
     ]
   },
