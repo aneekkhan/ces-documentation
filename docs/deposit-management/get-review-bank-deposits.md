@@ -39,6 +39,7 @@ In cryptocurrency exchange system user's can view their deposit details
       "BankName": "Weimann, Emmerich and Koch",
       "Fee": 13.54523102,
       "TransactionTd": "bc5cf4da-da20-4144-948a-ad0e27367dd0",
+      "DepositeMethod":"DEPOSIT_METHOD_CREDIT_CARD",
       "AccountName": "Prof. Kieran Howell Sr.",
       "AccountNumber": "538416559340",
       "SwiftCode": "BSWNARI6",
