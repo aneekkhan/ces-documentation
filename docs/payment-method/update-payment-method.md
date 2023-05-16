@@ -12,7 +12,7 @@ sidebar_position: 3
 
 ## 2. Overview
 
-#### Customer supporting system by ticketing.
+#### Payment method is a way to pay for the order.
 
 ## 3. API
 
@@ -21,9 +21,7 @@ sidebar_position: 3
 ```json
 {
   "ID": "123e4567-e89b-12d3-a456-426614174000",
-  "Name": "Payment",
-  "Description": "Payment Method",
-  "IsActive": "Pay With Cash"
+  "IsActive": "Active",
 }
 ```
 
@@ -36,7 +34,7 @@ sidebar_position: 3
       "ID": "123e4567-e89b-12d3-a456-426614174000",
       "Name": "Payment",
       "Description": "Payment Method",
-      "IsActive": "Pay With Cash",
+      "IsActive": "Active",
       "CreatedAt": "2021-10-10 12:00:00",
       "UpdatedAt": "2021-10-10 12:00:00"
     }
