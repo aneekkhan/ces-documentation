@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Create Support Ticket
+# List Payment Methods
 
 ## 1. version control
 
@@ -23,8 +23,6 @@ sidebar_position: 2
   "SortBy": "DESC",
   "OrderByData": "name",
   "SearchTerm": "B",
-  "Limit": "10",
-  "Offset": "0",
   "Status": "",
   "StartDate": "2020-03-24T06:03:00.348+03:00",
   "EndDate": ""
@@ -41,7 +39,7 @@ sidebar_position: 2
         "ID": "123e4567-e89b-12d3-a456-426614174000",
         "Name": "Payment",
         "Description": "Payment Method",
-        "IsActive": "Pay With Cash",
+        "IsActive": "Active",
         "CreatedAt": "2021-10-10 12:00:00",
         "UpdatedAt": "2021-10-10 12:00:00",
         "DeletedAt": "2021-10-10 12:00:00"
@@ -50,7 +48,7 @@ sidebar_position: 2
         "ID": "123e4567-e89b-12d3-a456-426614174000",
         "Name": "Payment",
         "Description": "Payment Method",
-        "IsActive": "Pay With Cash",
+        "IsActive": "Active",
         "CreatedAt": "2021-10-10 12:00:00",
         "UpdatedAt": "2021-10-10 12:00:00",
         "DeletedAt": "2021-10-10 12:00:00"

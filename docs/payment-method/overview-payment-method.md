@@ -13,7 +13,7 @@ sidebar_position: 1
 
 ## 2. Overview
 
-customer supporting system by ticketing.
+#### Payment method is a way to pay for the order.
 
 ## 3. Data Dictionary
 
