@@ -27,7 +27,7 @@ Crypto exchange platforms typically offer different types of orders, such as mar
 | quantity                  | VARCHAR(50)  | NOT NULL                                        | Quantity of base currency in the order                                     |
 | price                     | VARCHAR(50)  | NOT NULL                                        | Price per unit of the quote currency in the order                          |
 | stop_limit                | VARCHAR(50)  | NULL                                            | Stop limit price per unit of the quote currency in the order               |
-| total                     | VARCHAR(50)  | NOT NULL                                        | Total value of the order(quantity * price)                                 |
+| total_amount              | VARCHAR(50)  | NOT NULL                                        | Total value of the order(quantity * price)                                 |
 | fee_type                  | tinyint(1)   | DEFAULT 0                                       | Type of fee charged for the order (e.g. maker,taker)                       |
 | fee_amount                | VARCHAR(50)  | NOT NULL                                        | Amount of fee charged forthe order                                         |
 | fee_currency_id           | UUID         | FOREIGN KEY                                     | ID of the currency used to pay the fee                                     |
@@ -38,21 +38,21 @@ Crypto exchange platforms typically offer different types of orders, such as mar
 | updated_at                | DATETIME     | NOT NULL                                        | Timestamp when the order was last updated                                  |
 | cancelled_at              | DATETIME     | NOT NULL                                        | Timestamp when the order was cancelled                                     |
 | updated_by                | UUID         | NOT NULL                                        | ID of user who has updated the order                                       |
-| cancel_amount             | VARCHAR(50)  | NOT NULL                                        |cancel the order amount                           |
-| settlement_quantity       | VARCHAR(50)  | NOT NULL                                        | Quantity of currency settled in the order              |
+| cancel_amount             | VARCHAR(50)  | NOT NULL                                        |cancel the order amount                                                     |
+| settlement_quantity       | VARCHAR(50)  | NOT NULL                                        | Quantity of currency settled in the order                                  |
 ``
 ``
 
 ## 4. Enum Fields 
-#### **Category**
+#### **OrderCategory**
 &nbsp;
 
       type: tinyint(1)
 
-    - CATEGORY_MARKET
-    - CATEGORY_LIMIT
-    - CATEGORY_STOP_LOSS
-    - CATEGORY_UNKNOWN
+    - ORDER_CATEGORY_MARKET
+    - ORDER_CATEGORY_LIMIT
+    - ORDER_CATEGORY_STOP_LOSS
+    - ORDER_CATEGORY_UNKNOWN
 
 #### **Type**
 &nbsp;
