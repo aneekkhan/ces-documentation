@@ -42,8 +42,7 @@ sidebar_position: 3
          "IsDefault":"IS_NOT_DEFAULT",
          "MakerFee":"99.00",
          "TakerFee":"90.89",
-         "MakerFeeType":"MAKER_FEE_TYPE_FEE_TYPE_FIXED",
-         "TakerFeeType":"TAKER_FEE_TYPE_FEE_TYPE_FIXED",
+         "FeeType":"FEE_TYPE_FIXED",
          "CreatedAt":"12-12-2021 12:12:12",
          "UpdatedAt":"",
          "DeletedAt":"12-12-2021 12:12:12"
