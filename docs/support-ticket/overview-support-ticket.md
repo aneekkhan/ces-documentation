@@ -53,3 +53,33 @@ customer supporting system by ticketing.
       const: 1
     - title: UNKNOWN
       const: 0
+
+#### **Priority**
+
+
+      type: tinyint(1)
+      field name: priority 
+
+    - title: HIGH
+      const: 3
+    - title: MEDIUM
+      const: 2
+    - title: LOW
+      const: 1
+    - title: UNKNOWN
+      const: 0
+
+#### **Support Type**
+
+
+      type: tinyint(1)
+      field name: support_type 
+
+    - title: HIGH
+      const: 3
+    - title: MEDIUM
+      const: 2
+    - title: LOW
+      const: 1
+    - title: UNKNOWN
+      const: 0
