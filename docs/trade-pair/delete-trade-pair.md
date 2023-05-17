@@ -28,21 +28,26 @@ sidebar_position: 3
 
 ```json
 {
-  "Data":{
-    "TradePair":{
-      "ID":"123e4567-e89b-12d3-a456-426614174000",
-      "BaseCurrency": "1234",
-      "QuoteCurrencyId": "456",
-      "LastPrice": "124.98",
-      "IsActive": "ACTIVE",
-      "IsDefault": "ACTIVE",
-      "PriceDecimalPlaces": "3",
-      "MinimumOrderAmount": "22.56",
-      "MaximumOrderAmount": "65.89",
-      "MakerFee": "99.00",
-      "TakerFee": "90.89",
-      "UpdatedAt":"12-12-2021 12:12:12"
-    }
-  }
+   "Data":{
+      "TradePair":{
+         "ID":"123e4567-e89b-12d3-a456-426614174000",
+         "Name":"BTC_USD",
+         "BaseCurrency":"56756756-e89b-12d3-a456-426614174000",
+         "QuoteCurrencyId":"123e4567-e89b-12d3-a456-56464r4534",
+         "PriceDecimalPlaces":"3",
+         "MinimumOrderAmount":"22.56",
+         "MaximumOrderAmount":"65.89",
+         "LastPrice":"124.98",
+         "IsActive":"ACTIVE",
+         "IsDefault":"IS_NOT_DEFAULT",
+         "MakerFee":"99.00",
+         "TakerFee":"90.89",
+         "MakerFeeType":"MAKER_FEE_TYPE_FEE_TYPE_FIXED",
+         "TakerFeeType":"TAKER_FEE_TYPE_FEE_TYPE_FIXED",
+         "CreatedAt":"12-12-2021 12:12:12",
+         "UpdatedAt":"",
+         "DeletedAt":"12-12-2021 12:12:12"
+      }
+   }
 }
 ```
