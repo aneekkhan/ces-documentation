@@ -22,10 +22,10 @@ sidebar_position: 4
 ```json
 {
    "SortBy":"DESC",
-   "OrderByData":"name",
+   "SortByColumn":"name",
    "SearchTerm":"B",
-   "Limit":"10",
-   "Offset":"0",
+   "Limit":10,
+   "Offset":0,
    "Status":""
 }
 ```
@@ -33,44 +33,46 @@ sidebar_position: 4
 
 ```json
 {
-   "Data": {
-    "TradePair":[
-      {
-        "ID":"123e4567-e89b-12d3-a456-426614174000",
-        "BaseCurrency": "1234",
-        "QuoteCurrencyId": "456",
-        "LastPrice": "124.98",
-        "IsActive": "ACTIVE",
-        "IsDefault": "ACTIVE",
-        "PriceDecimalPlaces": "3",
-        "MinimumOrderAmount": "22.56",
-        "MaximumOrderAmount": "65.89",
-        "MakerFee": "99.00",
-        "TakerFee": "90.89",
-        "CreatedAt": "2020-03-24T06:03:00.348+03:00",
-        "CreatedBy": "123e4567-e89b-12d3-a456-426614174000",
-        "UpdatedAt": "2020-03-24T06:03:00.348+03:00",
-        "UpdatedBy": "123e4567-e89b-12d3-a456-426614174000"
-      },
-      {
-        "ID":"123e4567-e89b-12d3-a456-426614174000",
-        "BaseCurrency": "1234",
-        "QuoteCurrencyId": "456",
-        "LastPrice": "124.98",
-        "IsActive": "ACTIVE",
-        "IsDefault": "ACTIVE",
-        "PriceDecimalPlaces": "3",
-        "MinimumOrderAmount": "22.56",
-        "MaximumOrderAmount": "65.89",
-        "MakerFee": "99.00",
-        "TakerFee": "90.89",
-        "CreatedAt": "2020-03-24T06:03:00.348+03:00",
-        "CreatedBy": "123e4567-e89b-12d3-a456-426614174000",
-        "UpdatedAt": "2020-03-24T06:03:00.348+03:00",
-        "UpdatedBy": "123e4567-e89b-12d3-a456-426614174000"
-      }
-    ]
-   },
-   "Total": 2
+   "Data":{
+      "TradePairs":[
+         {
+            "ID":"123e4567-e89b-12d3-a456-426614174000",
+            "Name":"BTC_USD",
+            "BaseCurrency":"56756756-e89b-12d3-a456-426614174000",
+            "QuoteCurrencyId":"123e4567-e89b-12d3-a456-56464r4534",
+            "PriceDecimalPlaces":"3",
+            "MinimumOrderAmount":"22.56",
+            "MaximumOrderAmount":"65.89",
+            "LastPrice":"124.98",
+            "IsActive":"ACTIVE",
+            "IsDefault":"IS_NOT_DEFAULT",
+            "MakerFee":"99.00",
+            "TakerFee":"90.89",
+            "FeeType":"FEE_TYPE_FIXED",
+            "CreatedAt":"12-12-2021 12:12:12",
+            "UpdatedAt":"",
+            "DeletedAt":null
+         },
+         {
+            "ID":"123e4567-e89b-12d3-a456-34534534544",
+            "Name":"BTC_ETH",
+            "BaseCurrency":"56756756-e89b-12d3-a456-426614174000",
+            "QuoteCurrencyId":"123e4567-e89b-12d3-a456-232423t345",
+            "PriceDecimalPlaces":"3",
+            "MinimumOrderAmount":"22.56",
+            "MaximumOrderAmount":"65.89",
+            "LastPrice":"124.98",
+            "IsActive":"ACTIVE",
+            "IsDefault":"IS_NOT_DEFAULT",
+            "MakerFee":"99.00",
+            "TakerFee":"90.89",
+            "FeeType":"FEE_TYPE_FIXED",
+            "CreatedAt":"12-12-2021 12:12:12",
+            "UpdatedAt":"",
+            "DeletedAt":null
+         }
+      ],
+      "Total":2
+   }
 }
 ```
