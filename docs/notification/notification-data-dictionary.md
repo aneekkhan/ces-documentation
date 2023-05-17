@@ -42,7 +42,7 @@ provide real-time updates and alerts to their users.
       type: tinyint(1)
       field name: is_read 
 
-    - title: IS_READ_FALSE
+    - title: FALSE
       const: 0
-    - title: IS_READ_TRUE
+    - title: TRUE
       const: 1
