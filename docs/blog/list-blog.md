@@ -23,9 +23,7 @@ sidebar_position: 16
 {
   "SortBy": "123e4567-e89b-12d3-a456-426614174000",
   "SortByColumn": "Asc",
-  "Limit": "Limit",
   "Status": "Active",
-  "Offset": "Offset",
   "SearchTerm": "SearchTerm",
   "StartDate": "2020-03-24T06:03:00.348+03:00",
   "EndDate": "2021-03-24T06:03:00.348+03:00"
@@ -37,7 +35,7 @@ sidebar_position: 16
 ```json
 {
    "Data": {
-       "Blog": [
+       "BlogData": [
             {
              "ID": "123e4567-e89b-12d3-a456-426614174000",
              "UserID": "123e4567-e89b-12d3-a456-426614174000", 
@@ -45,9 +43,9 @@ sidebar_position: 16
              "Title": "BdNews",
              "Category": "News",
              "Content": "content is a",
-             "IsFeatured": "ACTIVE",
+             "IsFeatured": "TRUE",
              "ImageUrl": "https://demo.com/storage/images/coin-icons/default.jpg",
-             "IsPublished": "ACTIVE",
+             "IsPublished": "TRUE",
              "Slug": "BdNews",
              "CreatedAt": "2023-05-08 09:12:15",
              "UpdatedAt": "2023-05-08 09:12:15",
@@ -61,9 +59,9 @@ sidebar_position: 16
              "Title": "BdNews",
              "Category": "News",
              "Content": "content is a",
-             "IsFeatured": "ACTIVE",
+             "IsFeatured": "TRUE",
              "ImageUrl": "https://demo.com/storage/images/coin-icons/default.jpg",
-             "IsPublished": "ACTIVE",
+             "IsPublished": "TRUE",
              "Slug": "BdNews",
              "CreatedAt": "2023-05-08 09:12:15",
              "UpdatedAt": "2023-05-08 09:12:15",

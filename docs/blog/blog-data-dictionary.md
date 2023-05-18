@@ -23,7 +23,7 @@ sidebar_position: 13
 | user_id                   | UUID         | Foreign KEY                            | User's id                                         |
 | title                     | varchar(255) | NOT NULL                              | Title of the blog                                       |
 | content                   | text         | NOT NULL                              | Content of the blog                                       |
-| author                    | varchar(100) | NOT NULL                              | Name of the author of the blog                         |
+| author_name               | varchar(100) | NOT NULL                              | Name of the author of the blog                         |
 | category                  | varchar(50)  | NOT NULL                              | Category of the blog                                       |
 | tags                      | varchar(255) | NOT NULL                              | Tags associated with the blog                              |
 | image_url                 | varchar(255) | NOT NULL                              | URL of the main image for the blog                         |
@@ -43,25 +43,9 @@ sidebar_position: 13
 
 ## 4.Enum fields
 
-#### **IsFeatured**
+#### **BooleanType**
 
+&nbsp;
 
-      type: tinyint(1)
-      field name: is_published 
-
-    - title: IS_PUBLISHED_INACTIVE
-      const: 0
-    - title: IS_PUBLISHED_ACTIVE
-      const: 1
-    
-
-#### **IsPublished**
-
-
-      type: tinyint(1)
-      field name: is_featured 
-
-    - title: IS_FEATURED_INACTIVE
-      const: 0
-    - title: IS_FEATURED_ACTIVE
-      const: 1
+- FALSE
+- TRUE

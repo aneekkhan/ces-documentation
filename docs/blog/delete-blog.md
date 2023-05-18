@@ -1,8 +1,8 @@
 ---
-sidebar_position: 15
+sidebar_position: 17
 ---
 
-# Update Blog
+# Delete Blog
 
 ## 1. version control
 
@@ -12,36 +12,27 @@ sidebar_position: 15
 
 ## 2. Overview
 
-#### In cryptocurrency exchange system admin can update blog
-
+#### In cryptocurrency exchange system admin can delete Blog.
 
 ## 3. API
 
-### Update Blog by ID Request example:
+### Request example:
 
 ```json
 {
-  "ID": "123e4567-e89b-12d3-a456-426614174000",
-  "CategoryID": "123e4567-e89b-12d3-a456-426614174000",
-  "Title": "BdNews",
-  "Category": "News",
-  "Content": "content is a",
-  "IsFeatured": "TRUE",
-  "ImageUrl": "https://demo.com/storage/images/coin-icons/default.jpg",
-  "IsPublished": "TRUE",
-  "Views" :"1"
+  "ID": "123e4567-e89b-12d3-a456-426614174111"
 }
 ```
 
-### Update Blog by ID Response example:
+### Response example:
 
 ```json
-{ 
- "Data": {
+{
+  "Data": {
     "BlogData": {
-        "ID": "123e4567-e89b-12d3-a456-426614174000",
-        "UserID": "123e4567-e89b-12d3-a456-426614174000",  
-        "CategoryID": "123e4567-e89b-12d3-a456-426614174000",
+        "ID": "123e4567-e89b-12d3-a456-426614174111",
+        "UserID": "123e4567-e89b-12d3-a456-426614174000", 
+        "CategoryID": "123e4567-e89b-12d3-a456-426614174000",	
         "Title": "BdNews",
         "Category": "News",
         "Content": "content is a",
@@ -53,8 +44,7 @@ sidebar_position: 15
         "UpdatedAt": "2023-05-08 09:12:15",
         "CreatedBy": "123e4567-e89b-12d3-a456-426614174025",
         "UpdatedBy": "123e4567-e89b-12d3-a456-426614174025"
-        }
-     }
+    }
+  }
 }
 ```
-
