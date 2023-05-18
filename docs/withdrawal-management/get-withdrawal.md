@@ -29,7 +29,7 @@ sidebar_position: 2
 ```json
 {
   "Data": {
-  "Withdrawals": {
+    "Withdrawals": {
       "ID": "123e4567-e89b-12d3-a456-426614174111",
       "UserID": "123e4567-e89b-12d3-a456-426614174000",
       "UserEmail": "mail@mail.com",
@@ -43,7 +43,7 @@ sidebar_position: 2
       "WithdrawalMethod": "WITHDRAWAL_METHOD_BANK_TRANSFER",
       "WithdrawalAccount": "1234567890",
       "WithdrawalNote": "withdrawal_note",
-      "PaymentGateway": "WITHDRAWAL_METHOD_PAYPAL",
+      "PaymentGateway": "PAYMENT_GATEWAY_PAYPAL",
       "TransactionId": "SDFSD45GDKJDDJKGD",
       "WithdrawalDate": "2023-05-08 09:12:15",
       "ProcessedDate": "2023-05-08 09:12:15",
@@ -59,6 +59,7 @@ sidebar_position: 2
 ## 4. Enum Fields
 
 #### **WithdrawalStatus**
+
 &nbsp;
 
     WITHDRAWAL_STATUS_UNKNOWN
@@ -68,14 +69,15 @@ sidebar_position: 2
     WITHDRAWAL_STATUS_CANCELED
 
 #### **FeeType**
+
 &nbsp;
 
     FEE_TYPE_UNKNOWN
     FEE_TYPE_FLAT
     FEE_TYPE_PERCENTAGE
-    
-    
+
 #### **WithdrawalMethod**
+
 &nbsp;
 
     WITHDRAWAL_METHOD_UNKNOWN
@@ -83,13 +85,13 @@ sidebar_position: 2
     WITHDRAWAL_METHOD_PAYPAL
     WITHDRAWAL_METHOD_STRIPE
     WITHDRAWAL_METHOD_WE_PAY
-    
 
 #### **PaymentGateway**
+
 &nbsp;
 
     PAYMENT_GATEWAY_UNKNOWN
     PAYMENT_GATEWAY_PAYPAL
     PAYMENT_GATEWAY_STRIPE
     PAYMENT_GATEWAY_WE_PAY
-       
+

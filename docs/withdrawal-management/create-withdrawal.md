@@ -39,7 +39,7 @@ sidebar_position: 2
 ```json
 {
   "Data": {
-    "BankAccount": {
+    "Withdrawals": {
       	"ID": "123e4567-e89b-12d3-a456-426614174111",
 		"UserID": "123e4567-e89b-12d3-a456-426614174000",
 		"UserEmail": "mail@mail.com",
