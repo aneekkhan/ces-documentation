@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# System Wallet Overview
+# Wallet Overview
 
 ## 1. version control
 
@@ -12,9 +12,7 @@ sidebar_position: 1
 
 ## 2. Overview
 
-A user who wants to buy/sell cryptocurrency with fiat currency or another
-cryptocurrency. They may be new to the cryptocurrency market and want to invest or trade in
-various cryptocurrencies.
+#### In cryptocurrency exchange system admin or user can get Wallet list.
 
 ## 3. Data Dictionary (CES V1.0)
 
@@ -28,6 +26,7 @@ various cryptocurrencies.
 | balance         | decimal(30,10) | NOT NULL                                    | Current balance in the wallet                                   |
 | is_default      | tinyint(1)     | DEFAULT 0                                   | Flag indicating whether the wallet is the user's default wallet |
 | is_active       | tinyint(1)     | DEFAULT 0                                   | Flag indicating whether the wallet is 'Enable' or 'Disable'     |
+| is_system       | tinyint(1)     | DEFAULT 0                                   | Flag indicating whether the wallet is 'System Wallet' or 'User Wallet'     |
 | last_deposit    | TIMESTAMP      | NOT NULL                                    | Timestamp when the wallet was last updated                      |
 | last_withdrawal | TIMESTAMP      | NOT NULL                                    | Timestamp of the last withdrawal made from the wallet           |
 | created_at      | TIMESTAMP      | NOT NULL                                    | Timestamp of when the wallet was created                        |
@@ -53,3 +52,10 @@ various cryptocurrencies.
 
 - IS_ACTIVE_TRUE
 - IS_ACTIVE_FALSE
+
+#### **is_system**
+
+&nbsp;
+
+- IS_SYSTEM_TRUE
+- IS_SYSTEM_FALSE
