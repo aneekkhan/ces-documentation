@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# List System Wallet
+# List Wallet
 
 ## 1. version control
 
@@ -12,23 +12,25 @@ sidebar_position: 2
 
 ## 2. Overview
 
-#### In cryptocurrency exchange system admin can get System Wallet list.
+#### In cryptocurrency exchange system admin or user can get Wallet list.
 
 ## 3. API
 
-### List System Wallet Request example:
+### List Wallet Request example:
 
 ```json
 {
   "SortBy": "DESC",
   "SortByColumn": "id",
-  "Limit": "10",
-  "Offset": "0",
   "SearchTerm": "",
+  "StartDate": "2020-03-24T06:03:00.348+03:00",
+  "EndDate": "",
+  "IsSystem": "IS_SYSTEM_FALSE",
+  "UserID": "321e4567-e89b-12d3-a456-867676887",
 }
 ```
 
-### List System Wallet Response example:
+### List Wallet Response example:
 
 ```json
 {
@@ -44,6 +46,7 @@ sidebar_position: 2
         "Balance": 2000,
         "IsDefault":,
         "IsActive":,
+        "IsSystem": "IS_SYSTEM_FALSE",
         "LastDeposit":,
         "LastWithdrawal":,
         "CreatedAt": "123e4567-e89b-12d3-a456-426614174000",
@@ -61,6 +64,7 @@ sidebar_position: 2
         "Balance": 2000,
         "IsDefault":,
         "IsActive":,
+        "IsSystem": "IS_SYSTEM_FALSE",
         "LastDeposit":,
         "LastWithdrawal":,
         "CreatedAt": "123e4567-e89b-12d3-a456-426614174000",
