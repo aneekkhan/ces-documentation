@@ -23,7 +23,6 @@ sidebar_position: 3
 {
   "SortBy": "ASC",
   "SortByColumn": "BankName",
-  "SortType": "similar",
   "SearchTerm": "Like",
   "StartDate": "2023-02-08 09:12:15",
   "EndDate": "2023-05-08 09:12:15"
