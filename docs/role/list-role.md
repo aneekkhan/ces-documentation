@@ -21,11 +21,9 @@ sidebar_position: 22
 
 ```json
 {
-  "SortBy": "123e4567-e89b-12d3-a456-426614174000",
-  "SortByColumn": "Asc",
-  "Limit": "Limit",
-  "Status": "Active",
-  "Offset": "Offset",
+  "SortBy": "Asc",
+  "SortByColumn": "Name",
+  "Status": "TRUE",
   "SearchTerm": "SearchTerm",
   "StartDate": "2020-03-24T06:03:00.348+03:00",
   "EndDate": "2021-03-24T06:03:00.348+03:00"
@@ -39,26 +37,26 @@ sidebar_position: 22
    "Data": {
        "Role": [
             {
-             "ID": "123e4567-e89b-12d3-a456-426614174000",
-             "RoleName": "User",
-             "Description": "Description is a",
-             "Access": "access",
-             "Status": "ACTIVE",
-             "CreatedAt": "2023-05-08 09:12:15",
-             "UpdatedAt": "2023-05-08 09:12:15",
-             "CreatedBy": "123e4567-e89b-12d3-a456-426614174025",
-             "UpdatedBy": "123e4567-e89b-12d3-a456-426614174025"
+              "ID": "123e4567-e89b-12d3-a456-426614174111", 
+              "Name": "User",
+              "Description": "Role Description",
+              "AccessiableRoutes": "access",
+              "IsActive": "TRUE",
+              "CreatedAt": "2023-05-08 09:12:15",
+              "UpdatedAt": "2023-05-08 09:12:15",
+              "CreatedBy": "123e4567-e89b-12d3-a456-426614174025",
+              "UpdatedBy": "123e4567-e89b-12d3-a456-426614174025"
             }, 
             {
-             "ID": "123e4567-e89b-12d3-a456-426614174000",
-             "RoleName": "User",
-             "Description": "Description is a",
-             "Access": "access",
-             "Status": "ACTIVE",
-             "CreatedAt": "2023-05-08 09:12:15",
-             "UpdatedAt": "2023-05-08 09:12:15",
-             "CreatedBy": "123e4567-e89b-12d3-a456-426614174025",
-             "UpdatedBy": "123e4567-e89b-12d3-a456-426614174025"
+              "ID": "123e4567-e89b-12d3-a456-426614174111", 
+              "Name": "User",
+              "Description": "Role Description",
+              "AccessiableRoutes": "access",
+              "IsActive": "TRUE",
+              "CreatedAt": "2023-05-08 09:12:15",
+              "UpdatedAt": "2023-05-08 09:12:15",
+              "CreatedBy": "123e4567-e89b-12d3-a456-426614174025",
+              "UpdatedBy": "123e4567-e89b-12d3-a456-426614174025"
             }
            ]
          },

@@ -23,12 +23,10 @@ sidebar_position: 19
 
 ```json
 {
-  "RoleName": "User",
-  "Description": "Description is a",
-  "Access": "access",
-  "Status": "ACTIVE",
-  "CreatedBy": "456e4567-e89b-12d3-a456-426614174000",
-  "UpdatedBy": "456e4567-e89b-12d3-a456-426614174000"
+  "Name": "User",
+  "Description": "Role Description",
+  "AccessiableRoutes": "access",
+  "IsActive": "TRUE",
 }
 ```
 
@@ -39,10 +37,10 @@ sidebar_position: 19
   "Data": {
     "Role": {
         "ID": "123e4567-e89b-12d3-a456-426614174111", 
-        "RoleName": "User",
-        "Description": "Description is a",
-        "Access": "access",
-        "Status": "ACTIVE",
+        "Name": "User",
+        "Description": "Role Description",
+        "AccessiableRoutes": "access",
+        "IsActive": "TRUE",
         "CreatedAt": "2023-05-08 09:12:15",
         "UpdatedAt": "2023-05-08 09:12:15",
         "CreatedBy": "123e4567-e89b-12d3-a456-426614174025",
