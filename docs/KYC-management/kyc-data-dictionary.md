@@ -27,9 +27,9 @@ KYC procedures typically involve collecting personal information, such as a user
 | selfie_with_document      | text array   | NOT NULL                                        | URL or file path of the selfie photo of the user holding the document and a paper with verification code  |
 | submitted_at              | DATETIME     | NOT NULL                                        | Timestamp of when the verification request was submitted                                                  |
 | approved_at               | DATETIME     | NOT NULL                                        |Timestamp when the verification request has been approved                                                  |
-| approved_by               | varchar(50)  | NOT NULL                                     | ID of the admin who approved the verification request                                                     |
+| approved_by               | VARCHAR(50)  | NOT NULL                                     | ID of the admin who approved the verification request                                                     |
 | rejected_at               | DATETIME     | NOT NULL                                        | Timestamp when the verification request has been rejected                                                 |
-| rejected_by               | varchar(50)  | NOT NULL                                    | ID of the admin who rejected the verification request                                                     |
+| rejected_by               | VARCHAR(50)  | NOT NULL                                    | ID of the admin who rejected the verification request                                                     |
 | rejection_reason          | VARCHAR(255) | NOT NULL                                        | Reason for rejection of the verification request                                                          |
 
 
