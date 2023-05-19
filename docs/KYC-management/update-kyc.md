@@ -22,7 +22,7 @@ sidebar_position: 4
 ```json
 {
    "ID":"123e4567-e89b-12d3-a456-426614174000",
-   "Status":"APPROVED"
+   "Status":"STATUS_APPROVED"
 }
 ```
 
@@ -31,11 +31,11 @@ sidebar_position: 4
 ```json
 {
    "Data":{
-      "kyc":{
+      "Kyc":{
          "ID":"123e4567-e89b-12d3-a456-426614174000",
          "UserId":"456e4567-e89b-12d3-a456-426614174000",
-         "Status":"PENDING",
-         "DocumentType":"PASSPORT",
+         "Status":"STATUS_APPROVED",
+         "DocumentType":"DOCUMENT_TYPE_PASSPORT",
          "DocumentNumber":"123456789",
          "DocumentPhoto":["passport.png"],
          "SelfieWithDocument":["passportselfie.png"],
