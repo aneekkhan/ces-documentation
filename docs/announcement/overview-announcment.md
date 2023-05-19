@@ -24,34 +24,31 @@ announcement is a message posted in the announcement section of the website. It 
 | title                | varchar(255) | NOT NULL                             | Title of the announcement                            |
 | content              | text         | NOT NULL                             | Body text of the announcement                        |
 | is_active            | tinyint(1)   | DEFAULT 0                            | Flag indicating whether announcement is active       |
-| type                 | tinyint(1)   | DEFAULT 0                            | Flag indicating type of the announcement             |
+| announcmentType      | tinyint(1)   | DEFAULT 0                            | Flag indicating type of the announcement             |
 | start_date           | datetime     | NOT NULL                             | Start date of the announcement                       |
 | end_date             | datetime     | NOT NULL                             | End date of the announcement                         |
 | created_at           | datetime     | NOT NULL                             | Timestamp of when the support ticket was created     |
 | updated_at           | datetime     | NOT NULL                             | Timestamp of when the support ticket was updated     |
-| deleted_at           | datetime     | NOT NULL                             | Timestamp of when the support ticket was deleted     |
 
 
 ## 4. Enum fields
 
-#### **Status**
+#### **IsActive**
 
 
       type: tinyint(1)
       field name: is_active 
 
-    - title: INACTIVE
-      const: 2
-    - title: ACTIVE
+    - title: TRUE
       const: 1
-    - title: UNKNOWN
+    - title: FALSE
       const: 0
 
-#### **Type**
+#### **AnnouncmentType**
 
 
       type: tinyint(1)
-      field name: type 
+      field name: AnnouncmentType 
 
     - title: WARNING
       const: 3
