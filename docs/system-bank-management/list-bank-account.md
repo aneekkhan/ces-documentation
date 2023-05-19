@@ -47,12 +47,12 @@ sidebar_position: 3
         "SWIFT": "SDFSD45",
         "IBAN":"SJ5FGSD45",
         "BIC": "WI5EUR8",
-        "IsSystem": "SYSTEM",
-        "CountryID": 564513164515,
+        "IsSystem": "TRUE",
+        "CountryCode": "BD",
         "BankAddress": "KDA 17 Khulna Bangladesh",
         "AccountHolderAddress":"Sonadanga 2nd area",
-        "IsActive": "IS_ACTIVE_TRUE",
-        "IsVerified": "IS_VERIFIED_FALSE",
+        "IsActive": "TRUE",
+        "IsVerified": "TRUE",
         "CreatedAt": "2023-05-08 09:12:15",
         "UpdatedAt": "2023-05-08 09:12:15",
         "CreatedBy": "123e4567-e89b-12d3-a456-426614174025",
@@ -70,12 +70,12 @@ sidebar_position: 3
         "SWIFT": "SDFSD45",
         "IBAN":"SJ5FGSD45",
         "BIC": "WI5EUR8",
-        "IsSystem": "SYSTEM",
-        "CountryID": 564513164515,
+        "IsSystem": "TRUE",
+        "CountryCode": "BD",
         "BankAddress": "KDA 17 Khulna Bangladesh",
         "AccountHolderAddress":"Sonadanga 2nd area",
-        "IsActive": "IS_ACTIVE_TRUE",
-        "IsVerified": "IS_VERIFIED_FALSE",
+        "IsActive": "TRUE",
+        "IsVerified": "TRUE",
         "CreatedAt": "2023-05-08 09:12:15",
         "UpdatedAt": "2023-05-08 09:12:15",
         "CreatedBy": "123e4567-e89b-12d3-a456-426614174025",
@@ -86,22 +86,3 @@ sidebar_position: 3
    "TotalPages": 2
 }
 ```
-
-## 4. Enum Fields
-#### **IsSystem**
-&nbsp;
-
-	IS_SYSTEM_FALSE
-	IS_SYSTEM_TRUE
-
-#### **IsActive**
-&nbsp;
-
-	IS_ACTIVE_FALSE
-	IS_ACTIVE_TRUE
-	
-#### **IsVerified**
-&nbsp;
-
-	IS_VERIFIED_FALSE
-	IS_VERIFIED_TRUE
