@@ -24,7 +24,7 @@ sidebar_position: 2
   "Title": "vacation",
   "Content": "i will be on vacation for 2 weeks",
   "IsActive": "Active",
-  "Type": "INFO",
+  "AnnouncmentType": "INFO",
   "StartDate": "2021-10-10 12:00:00",
   "EndDate": "2021-10-10 12:00:00"
 }
@@ -40,7 +40,7 @@ sidebar_position: 2
       "Title": "vacation",
       "Content": "i will be on vacation for 2 weeks",
       "IsActive": "Active",
-      "Type": "INFO",
+      "AnnouncmentType": "INFO",
       "StartDate": "2021-10-10 12:00:00",
       "EndDate": "2021-10-10 12:00:00",
       "CreatedAt": "2021-10-10 12:00:00",

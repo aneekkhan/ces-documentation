@@ -53,35 +53,32 @@ cryptocurrency.
 &nbsp;
 
     - COIN_TYPE_UNKNOWN
-    - COIN_TYPE_FIAT
-    - COIN_TYPE_CRYPTO
+    - FIAT
+    - CRYPTO
 
 #### **ExchangeStatus**
 &nbsp;
 
-    - EXCHANGE_STATUS_UNKNOWN
     - EXCHANGE_STATUS_ACTIVE
     - EXCHANGE_STATUS_INACTIVE
 
 #### **DepositStatus**
 &nbsp;
 
-    - DEPOSIT_STATUS_UNKNOWN
     - DEPOSIT_STATUS_ACTIVE
     - DEPOSIT_STATUS_INACTIVE
 
 #### **WithdrawalStatus**
 &nbsp;
-    
-    - WITHDRAWAL_STATUS_UNKNOWN
+
     - WITHDRAWAL_STATUS_ACTIVE
     - WITHDRAWAL_STATUS_INACTIVE
 
 #### **IsActive**
 &nbsp;
 
-    - IS_ACTIVE_TRUE
-    - IS_ACTIVE_FALSE
+    - TRUE
+    - FALSE
 
 #### **DepositFeeType**
 &nbsp;

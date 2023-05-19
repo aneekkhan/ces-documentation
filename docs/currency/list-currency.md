@@ -21,12 +21,13 @@ sidebar_position: 4
 
 ```json
 {
-   "SortBy":"DESC",
-   "OrderByData":"name",
-   "SearchTerm":"B",
-   "Limit":"10",
-   "Offset":"0",
-   "Status":"",
+  "SortBy": "DESC",
+  "SearchTerm": "B",
+  "IsActive": "TRUE",
+  "AnnouncmentType":"WARNING",
+  "SortByColumn": "name",
+  "StartDate": "2020-03-24T06:03:00.348+03:00",
+  "EndDate": ""
 }
 ```
 

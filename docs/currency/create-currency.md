@@ -25,7 +25,6 @@ sidebar_position: 2
    "Symbol":"BTC",
    "CoinType":"CRYPTO",
    "Icon":"btc.png",
-   "CreatedBy":"456e4567-e89b-12d3-a456-426614174000"
 }
 ```
 
