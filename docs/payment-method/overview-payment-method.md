@@ -20,7 +20,7 @@ sidebar_position: 1
 | Field Name           | Data Type    | Constraints                          | Description                                          |
 | ------------------   | ------------ | ------------------------------------ | ---------------------------------------------------- |
 | id                   | UUID         | PRIMARY KEY, AUTO_INCREMENT, NOT NULL| Unique identifier for the payment method             |
-| name                 | varchar(50)  | FOREIGN KEY                          | Name of the payment method                           |
+| name                 | varchar(50)  | NOT NULL                             | Name of the payment method                           |
 | description          | varchar(255) | NOT NULL                             | Description of the payment method                    |
 | is_active            | tinyint(1)   | NOT NULL                             | Flag indicating whether the payment method is active |
 | created_at           | datetime     | NOT NULL                             | Timestamp of when the support ticket was created     |
