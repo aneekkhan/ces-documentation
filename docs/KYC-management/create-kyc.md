@@ -22,7 +22,7 @@ sidebar_position: 2
 ```json
 {
    "UserId":"456e4567-e89b-12d3-a456-426614174000",
-   "DocumentType":"PASSPORT",
+   "DocumentType":"DOCUMENT_TYPE_PASSPORT",
    "DocumentNumber":"123456789",
    "DocumentPhoto":["passport.png"],
    "SelfieWithDocument":["passportselfie.png"]
@@ -34,11 +34,11 @@ sidebar_position: 2
 ```json
 {
    "Data":{
-      "kyc":{
+      "Kyc":{
          "ID":"123e4567-e89b-12d3-a456-426614174000",
          "UserId":"456e4567-e89b-12d3-a456-426614174000",
-         "Status":"PENDING",
-         "DocumentType":"PASSPORT",
+         "Status":"STATUS_PENDING",
+         "DocumentType":"DOCUMENT_TYPE_PASSPORT",
          "DocumentNumber":"123456789",
          "DocumentPhoto": ["passport.png"],
          "SelfieWithDocument":["passportselfie.png"],

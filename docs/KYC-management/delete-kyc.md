@@ -29,7 +29,7 @@ sidebar_position: 6
 ```json
 {
   "Data":{
-    "kyc":{
+    "Kyc":{
       "IsDeleted": true
     }
   }

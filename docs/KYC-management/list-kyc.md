@@ -22,13 +22,10 @@ sidebar_position: 5
 ```json
 {
    "SortBy":"DESC",
-   "OrderByData":"submitted_at",
+   "SortByColumn":"submitted_at",
    "SearchTerm":"",
    "Limit":"10",
    "Offset":"0",
-   "Status":"",
-   "StartDate":"2020-03-24T06:03:00.348+03:00",
-   "EndDate":"",
    "Status":"",
    "UserId":"",
    "DocumentType":"",
@@ -40,12 +37,12 @@ sidebar_position: 5
 ```json
 {
    "Data":{
-      "kyc":[
+      "Kyc":[
          {
             "ID":"123e4567-e89b-12d3-a456-426614174000",
             "UserId":"456e4567-e89b-12d3-a456-426614174000",
-            "Status":"PENDING",
-            "DocumentType":"PASSPORT",
+            "Status":"STATUS_PENDING",
+            "DocumentType":"DOCUMENT_TYPE_PASSPORT",
             "DocumentNumber":"123456789",
             "DocumentPhoto":["passport.png"],
             "SelfieWithDocument":["passportselfie.png"],
@@ -60,7 +57,7 @@ sidebar_position: 5
             "ID":"6867867e344-e89b-12d3-a456-426614174000",
             "UserId":"1234435r5-e89b-12d3-a456-426614174000",
             "Status":"APPROVED",
-            "DocumentType":"DRIVER_LICENSE",
+            "DocumentType":"DOCUMENT_TYPE_DRIVER_LICENSE",
             "DocumentNumber":"47567566444",
             "DocumentPhoto":["passport.png"],
             "SelfieWithDocument":["passportselfie.png"],

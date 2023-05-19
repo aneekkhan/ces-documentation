@@ -40,17 +40,17 @@ KYC procedures typically involve collecting personal information, such as a user
 
       type: tinyint(1)
 
-    - STATUS_REJECTED
-    - STATUS_APPROVED
     - STATUS_PENDING
+    - STATUS_APPROVED
+    - STATUS_REJECTED
 
 #### **DocumentType**
 &nbsp;
 
       type: tinyint(1)
 
+    - DOCUMENT_TYPE_UNKNOWN
     - DOCUMENT_TYPE_ID_CARD
     - DOCUMENT_TYPE_DRIVER_LICENSE
     - DOCUMENT_TYPE_PASSPORT
-    - DOCUMENT_TYPE_UNKNOWN
 
