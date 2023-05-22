@@ -19,14 +19,14 @@ The reward offered by crypto exchanges for referral programs can vary widely. So
 | Field Name             | Data Type     | Constraints                            | Description                                                          |
 | ---------------------- | ------------- | -------------------------------------- | -------------------------------------------------------------------- |
 | id                     | UUID          | DEFAULT uuid_generate_v4() PRIMARY KEY | Unique identifier for the referral history record                    |
-| referred_id            | UUID          | FOREIGN KEY                            | ID of the user who made the referral                                 |
-| referral_user_id       | UUID          | FOREIGN KEY                            | ID of the user who was referred                                      |
-| amount                 | decimal(16,8) | NOT NULL                               | Amount commission of earned for the referral                         |
+| referred_id            | varchar(50)   | NOT NULL                            | ID of the user who made the referral                                 |
+| referral_user_id       | varchar(50)   | NOT NULL                            | ID of the user who was referred                                      |
+| amount                 | BIGINT | NOT NULL                               | Amount commission of earned for the referral                         |
 | commission_currency_id | UUID          | FOREIGN KEY                            | ID of the currency in which the commission was paid                  |
 | referrer_type          | tinyint(1)    | NOT NULL                               | referrer_type of the eferral Histories (e.g. FIXED PERCENTAGE FREE ) |
-| created_at             | datetime      | NOT NULL                               | Timestamp of when the referral history was created                   |
-| updated_at             | datetime      | NOT NULL                               | Timestamp of when the referral history was updated                   |
-| deleted_at             | datetime      | NOT NULL                               | Timestamp of when the referral history was deleted                   |
+| created_at             | timestamp      | NOT NULL                               | Timestamp of when the referral history was created                   |
+| updated_at             | timestamp      | NOT NULL                               | Timestamp of when the referral history was updated                   |
+| deleted_at             | timestamp      | NOT NULL                               | Timestamp of when the referral history was deleted                   |
 
 ## 4. Enum Fields
 
