@@ -26,7 +26,7 @@ sidebar_position: 1
 | amount             | decimal(16,8) | NOT NULL                                                            | Amount of currency being withdrawn               |
 | withdrawal_status  | tinyint(1)    | DEFAULT 0                                                           | Status of the withdrawal                         |
 | fee_type           | tinyint(1)    | NOT NULL                                                            | Type of the fee (FIXED PERCENTAGE)               |
-| fee_amount         | decimal(16,8) | NOT NULL                                                            | Amount of the fee for the withdrawal             |
+| fee                | decimal(16,8) | NOT NULL                                                            | Amount of the fee for the withdrawal             |
 | total_amount       | decimal(16,8) | NOT NULL                                                            | Total amount to be withdrawn, including fee      |
 | withdrawal_method  | varchar(50)   | NOT NULL                                                            | Method of withdrawal                             |
 | withdrawal_account | varchar(255)  | NOT NULL                                                            | Account details for the withdrawal method        |

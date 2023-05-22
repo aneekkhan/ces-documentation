@@ -6,10 +6,9 @@ sidebar_position: 1
 
 ## 1. Version control
 
-| Version     | Date        | Description of Changes      |
-| ----------- | ----------- | --------------------------- |
-| CES V1.0    | May 3, 2023 | Initial Release             |
-
+| Version  | Date        | Description of Changes |
+| -------- | ----------- | ---------------------- |
+| CES V1.0 | May 3, 2023 | Initial Release        |
 
 ## 2. Overview
 
@@ -35,9 +34,8 @@ announcement is a message posted in the announcement section of the website. It 
 
 #### **IsActive**
 
-
       type: tinyint(1)
-      field name: is_active 
+      field name: is_active
 
     - title: TRUE
       const: 1
@@ -45,7 +43,6 @@ announcement is a message posted in the announcement section of the website. It 
       const: 0
 
 #### **AnnouncmentType**
-
 
       type: tinyint(1)
       field name: AnnouncmentType 
