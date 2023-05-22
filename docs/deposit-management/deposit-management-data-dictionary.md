@@ -19,7 +19,7 @@ A crypto exchange deposit system is a platform or feature provided by a cryptocu
 | Field Name      | Data Type     | Constraints                                 | Description                                                    |
 | --------------- | ------------- | ------------------------------------------- | -------------------------------------------------------------- |
 | id              | UUID          | UUID DEFAULT uuid_generate_v4() PRIMARY KEY | Unique identifier for the deposit                              |
-| user_id         | UUID          | Foreign KEY, index                          | ID of the user who made the deposit                            |
+| user_id         | varchar(50)   | Foreign KEY, index                          | ID of the user who made the deposit                            |
 | currency_id     | UUID          | Foreign KEY                                 | ID of the currency deposited                                   |
 | amount          | decimal(18,8) | NOT NULL                                    | Amount deposited                                               |
 | fee             | decimal(18,8) | NOT NULL                                    | Fee charged for the deposit                                    |
