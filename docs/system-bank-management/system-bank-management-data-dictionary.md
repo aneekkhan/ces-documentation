@@ -19,9 +19,9 @@ sidebar_position: 1
 | Field Name                | Data Type    | Constraints                           | Description                                                                |
 | ------------------------- | ------------ | ------------------------------------- | -------------------------------------------------------------------------- |
 | id                        | UUID          | PRIMARY KEY, DEFAULT uuid_generate_v4(), NOT NULL | Unique identifier for bank account                                                                       |
-| user_id                   | UUID          | FOREIGN KEY, INDEX, ON DELETE RESTRICT, ON UPDATE CASCADE                                                                            | ID of the user who owns the Key bank account                                                          |
+| user_id                   | varchar(50)          | FOREIGN KEY, INDEX, ON DELETE RESTRICT, ON UPDATE CASCADE                                                                            | ID of the user who owns the Key bank account                                                          |
 | reference_number          | varchar(255) | NOT NULL                              | Reference Number of the Bank                                                                           |
-| bank_name                 | varchar(255) | NOT NULL, INDEX                       | Name of the bank where the account is held                                                          |
+| bank_name                 | varchar(255) | NOT NULL                       | Name of the bank where the account is held                                                          |
 | account_name              | varchar(255) | NOT NULL                              | Name on the bank account                                                                            |
 | account_number            | varchar(255) | NOT NULL                              | Bank account number                                                                             |
 | account_holder            | varchar(255) | NOT NULL                              | Bank account holder Name                                                                               |
@@ -30,7 +30,7 @@ sidebar_position: 1
 | iban                      | varchar(255) | NOT NULL                              | IBAN number for international transfers                                                            |
 | bic                       | varchar(255) | NOT NULL                              | BIC number for international transfers                                                            |
 | is_system                 | tinyint(1)   | DEFAULT 0                             | Indicates if this is the system bank account                                              |
-| country_id                | unsignedBigInteger | FOREIGN KEY, NOT NULL, ON DELETE RESTRICT, ON UPDATE CASCADE                                                                            | Country ID indicating the Bank location                                                                  |
+| country_code                | varchar(20) | NOT NULL                                 | Country ID indicating the Bank location                                                                  |
 | bank_address              | varchar(255) | NOT NULL                              | Bank Address  indicating the address of the Bank                                                 |
 | account_holder_address    | varchar(255) | NOT NULL                              | Account Holder Address indicating the address of the account owner                                |
 | is_verified               | tinyint(1)   | DEFAULT 0                             | IsVerified indicating whether the Bank account verified or not                                           |
@@ -42,3 +42,10 @@ sidebar_position: 1
 ``
 ``
 
+## 4. Enum Fields
+#### **BooleanType**
+
+&nbsp;
+
+- FALSE
+- TRUE
