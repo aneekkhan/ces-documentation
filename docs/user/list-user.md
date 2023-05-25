@@ -23,9 +23,10 @@ sidebar_position: 4
   "SortBy": "DESC",
   "SortByColumn": "first_name",
   "Status": "",
-  "Limit": "10",
-  "Offset": "0",
   "SearchTerm": "",
+  "StartDate": "",
+  "EndDate": "",
+  "PhoneNumber": "",
 }
 ```
 
@@ -47,8 +48,8 @@ sidebar_position: 4
       "IsMfa": "IS_MFA_FALSE",
       "MfaType": "MFA_TYPE_RECOVERY",
       "KYCLevel":"KYC_LEVEL_UNKNOWN",
-      "CreatedAt": "123e4567-e89b-12d3-a456-426614174000",
-      "CreatedBy": "2020-03-24T06:03:00.348+03:00",
+      "CreatedAt": "2020-03-24T06:03:00.348+03:00",
+      "CreatedBy": "123e4567-e89b-12d3-a456-426614174000",
       "UpdatedAt": "",
       "UpdatedBy": "",
     },
