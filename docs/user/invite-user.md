@@ -14,13 +14,11 @@ sidebar_position: 2
 
 #### In cryptocurrency exchange system user can be created two way.
 
-##### i. User can be registerd
-
-##### ii. Admin can invite new user
+##### i. Admin can invite new user
 
 ## 3. API
 
-### Create User Request example:
+### Invite User Request example:
 
 ```json
 {
@@ -28,7 +26,7 @@ sidebar_position: 2
   "LastName": "Smith",
   "Email": "mail@mail.com",
   "Phone": "1234567890",
-  "Password": "password"
+  "RoleID": "sdfhhjbad131151321"
 }
 ```
 

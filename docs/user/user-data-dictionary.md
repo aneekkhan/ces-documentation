@@ -66,12 +66,9 @@ various cryptocurrencies.
 
 &nbsp;
 
-- MFA_TYPE_PASS
-- MFA_TYPE_TOTP
-- MFA_TYPE_CODE
-- MFA_TYPE_SMS
-- MFA_TYPE_RECOVERY
-- MFA_TYPE_EMAIL
+- MFA_TYPE_UNKNOWN
+- QR_CODE
+- QR_CODE
 
 #### **Status**
 
