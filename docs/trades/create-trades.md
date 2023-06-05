@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Create Trade Pair
+# Create Trades
 
 ## 1. version control
 
@@ -20,25 +20,25 @@ A crypto exchange system is a platform that allows users to buy, sell, and trade
 
 ```json
 {
-  "TradePairId": "426614174000-e89b-12d3-a456-426614174000",
-  "UserId": "12d3-e89b-12d3-a456-426614174000",
+  "TradePairID": "52ad9477-1f35-48fd-a3b0-80b853defdd3",
+  "UserID": "12d3-e89b-12d3-a456-426614174000",
   "MakerID": "12d3-e89b-12d3-a456-426614174000",
-  "Amount": 2000,
-  "Price": 2000,
-  "Total": 4029.96,
-  "BuyId": "12d3-e89b-12d3-a456-426614174000",
-  "BuyOrderId": "12d3-e89b-12d3-a456-426614174000",
-  "BuyerId": "12d3-e89b-12d3-a456-426614174000",
-  "BuyerFee": 100.25,
-  "BuyerFeeCurrency": "USD",
-  "SellId": "12d3-e89b-12d3-a456-426614174000",
-  "SellOrderId": "12d3-e89b-12d3-a456-426614174000",
-  "SellerId": "12d3-e89b-12d3-a456-426614174000",
-  "SellerFee": 100.25,
-  "SellerFeeCurrency": "USD",
-  "TakerFee": 124.98,
+  "Amount": "2000",
+  "Price": "2000",
+  "Total": "4000",
+  "BuyID": "559d9101-3c27-450c-8765-66b8ee9692df",
+  "BuyOrderID": "13cf59cd-5890-4502-a99d-e02f7b66b515",
+  "BuyerID": "12d3-e89b-12d3-a456-426614174000",
+  "BuyerFee": "100",
+  "BuyerFeeCurrency": "559d9101-3c27-450c-8765-66b8ee9692df",
+  "SellID": "559d9101-3c27-450c-8765-66b8ee9692df",
+  "SellOrderID": "13cf59cd-5890-4502-a99d-e02f7b66b515",
+  "SellerID": "12d3-e89b-12d3-a456-426614174000",
+  "SellerFee": "234",
+  "SellerFeeCurrency": "559d9101-3c27-450c-8765-66b8ee9692df",
+  "TakerFee": "234",
   "TakerFeetype": "UNKNOWN",
-  "MakerFee": 100.25,
+  "MakerFee": "23",
   "MakerFeetype": "UNKNOWN"
 }
 ```
@@ -50,25 +50,25 @@ A crypto exchange system is a platform that allows users to buy, sell, and trade
   "Data": {
     "Trades": {
       "ID": "123e4567-e89b-12d3-a456-426614174000",
-      "TradePairId": "426614174000-e89b-12d3-a456-426614174000",
-      "UserId": "12d3-e89b-12d3-a456-426614174000",
+      "TradePairID": "52ad9477-1f35-48fd-a3b0-80b853defdd3",
+      "UserID": "12d3-e89b-12d3-a456-426614174000",
       "MakerID": "12d3-e89b-12d3-a456-426614174000",
-      "Amount": 2000,
-      "Price": 2000,
-      "Total": 4029.96,
-      "BuyId": "12d3-e89b-12d3-a456-426614174000",
-      "BuyOrderId": "12d3-e89b-12d3-a456-426614174000",
-      "BuyerId": "12d3-e89b-12d3-a456-426614174000",
-      "BuyerFee": 100.25,
-      "BuyerFeeCurrency": "USD",
-      "SellId": "12d3-e89b-12d3-a456-426614174000",
-      "SellOrderId": "12d3-e89b-12d3-a456-426614174000",
-      "SellerId": "12d3-e89b-12d3-a456-426614174000",
-      "SellerFee": 100.25,
-      "SellerFeeCurrency": "USD",
-      "TakerFee": 124.98,
+      "Amount": "2000",
+      "Price": "2000",
+      "Total": "4000",
+      "BuyID": "559d9101-3c27-450c-8765-66b8ee9692df",
+      "BuyOrderID": "13cf59cd-5890-4502-a99d-e02f7b66b515",
+      "BuyerID": "12d3-e89b-12d3-a456-426614174000",
+      "BuyerFee": "100",
+      "BuyerFeeCurrency": "559d9101-3c27-450c-8765-66b8ee9692df",
+      "SellID": "559d9101-3c27-450c-8765-66b8ee9692df",
+      "SellOrderID": "13cf59cd-5890-4502-a99d-e02f7b66b515",
+      "SellerID": "12d3-e89b-12d3-a456-426614174000",
+      "SellerFee": "234",
+      "SellerFeeCurrency": "559d9101-3c27-450c-8765-66b8ee9692df",
+      "TakerFee": "234",
       "TakerFeetype": "UNKNOWN",
-      "MakerFee": 100.25,
+      "MakerFee": "23",
       "MakerFeetype": "UNKNOWN",
       "CreatedAt": "12-12-2021 12:12:12",
       "UpdatedAt": "2020-03-24T06:03:00.348+03:00"
