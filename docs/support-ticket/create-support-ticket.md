@@ -27,7 +27,6 @@ sidebar_position: 2
   "Attachment": "path to file",
   "Status": "open",
   "Priority": "high",
-  "CreatedAt": "2021-10-10 12:00:00",
   "AssignedTo": "123e4567-e89b-12d3-a456-426614174000"
 }
 ```
@@ -48,6 +47,7 @@ sidebar_position: 2
       "Priority": "high",
       "CreatedAt": "2021-10-10 12:00:00",
       "UpdatedAt": "2021-10-10 12:00:00",
+      "ResolvedAt": "2021-10-10 12:00:00",
       "AssignedTo": "123e4567-e89b-12d3-a456-426614174000",
       "UpdatedBy": "123e4567-e89b-12d3-a456-426614174000",
       "CreatedBy": "123e4567-e89b-12d3-a456-426614174000",
