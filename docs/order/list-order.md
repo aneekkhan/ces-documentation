@@ -24,8 +24,6 @@ sidebar_position: 4
    "SortBy":"DESC",
    "SortByColumn":"id",
    "SearchTerm":"",
-   "Limit":10,
-   "Offset":0,
    "Status":"",
    "TradePairId":"3456786e-e89b-12d3-a456-46456234556",
    "Type":"",

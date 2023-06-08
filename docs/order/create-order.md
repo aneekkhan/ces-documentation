@@ -21,9 +21,11 @@ sidebar_position: 2
 
 ```json
 {
+   "UserId":"456e4567-e89b-12d3-a456-426614174000",
    "TradePairId":"3456786e-e89b-12d3-a456-46456234556",
    "OrderCategory":"ORDER_CATEGORY_STOP_LOSS",
-   "Type":"BUY",
+   "Type":"TYPE_BUY",
+   "Status":"STATUS_OPEN",
    "Quantity":"0.09356620",
    "Price":"8947.90000000",
    "StopLimit":"",
@@ -41,8 +43,8 @@ sidebar_position: 2
          "UserId":"456e4567-e89b-12d3-a456-426614174000",
          "TradePairId":"3456786e-e89b-12d3-a456-46456234556",
          "OrderCategory":"ORDER_CATEGORY_STOP_LOSS",
-         "Type":"BUY",
-         "Status":"OPEN",
+         "Type":"TYPE_BUY",
+         "Status":"STATUS_OPEN",
          "Quantity":"0.09356620",
          "Price":"8947.90000000",
          "StopLimit":"",

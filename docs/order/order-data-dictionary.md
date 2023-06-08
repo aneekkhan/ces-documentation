@@ -21,25 +21,25 @@ Crypto exchange platforms typically offer different types of orders, such as mar
 | id                        | UUID         | UUID DEFAULT uuid_generate_v4() PRIMARY KEY     | Unique identifier for order                                      |
 | user_id                   | varchar(100) | NOT NULL                                        | ID of the user who placed the order                                      |
 | trade_pair_id             | UUID         | FOREIGN KEY                                     | ID od the trade pair associated with the order                             |
-| category                  | tinyint(1)   | DEFAULT 0                                       | Category of order(market,limit or stop-loss)                                 |
-| type                      | tinyint(1)    | DEFAULT 0                                       | Type of order(buy or sell)                                                                                         |
-| status                    | tinyint(1)    | DEFAULT 0                                       | Status of the order (e.g.open, completed, cancelled)                       |
-| quantity                  | BIGINT        | NOT NULL                                        | Quantity of base currency in the order                                       |
-| price                     | BIGINT        | NOT NULL                                        | Price per unit of the quote currency in the order                       |
-| stop_limit                | BIGINT        | NULL                                            | Stop limit price per unit of the quote currency in the order                 |
-| total                     | BIGINT        | NOT NULL                                        | Total value of the order(quantity * price)                                    |
-| fee_type                  | tinyint(1)    | DEFAULT 0                                       | Type of fee charged for the order (e.g. maker,taker)                          |
-| fee_amount                | BIGINT        | NOT NULL                                        | Amount of fee charged forthe order                                       |
+| category                  | VARCHAR(50)  | NOT NULL DEFAULT ' '                            | Category of order(market,limit or stop-loss)                  |
+| type                      | VARCHAR(50)  | NOT NULL DEFAULT ' '                            | Type of order(buy or sell)                                                                                        |
+| status                    | VARCHAR(50)  | DEFAULT 'STATUS_OPEN'                           | Status of the order (e.g.open, completed, cancelled)                       |
+| quantity                  | VARCHAR(100)  | NOT NULL DEFAULT ' '                             | Quantity of base currency in the order                                       |
+| price                     | VARCHAR(100)  | NOT NULL DEFAULT ' '                             | Price per unit of the quote currency in the order                       |
+| stop_limit                | VARCHAR(100)  | NULL                                            | Stop limit price per unit of the quote currency in the order                 |
+| total                     | VARCHAR(100)  | NOT NULL DEFAULT ' '                              | Total value of the order(quantity * price)                                    |
+| fee_type                  | VARCHAR(50)   | NOT NULL DEFAULT ' '                            | Type of fee charged for the order (e.g. maker,taker)                          |
+| fee_amount                | VARCHAR(100)  | NOT NULL DEFAULT ' '                              | Amount of fee charged forthe order                                       |
 | fee_currency_id           | UUID          | FOREIGN KEY                                     | ID of the currency used to pay the fee                                     |
-| executed_quantity         | BIGINT        | NOT NULL                                        | Quantity of base currency executed in the order                       |
-| executed_total            | BIGINT        | NOT NULL                                        | Total value of executed orders (quantity * price)                          |
+| executed_quantity         | VARCHAR(100)  | NOT NULL  DEFAULT ' '                             | Quantity of base currency executed in the order                       |
+| executed_total            | VARCHAR(100)  | NOT NULL DEFAULT ' '                              | Total value of executed orders (quantity * price)                          |
 | created_at                | DATETIME      | NULL                                            | Timestamp when the order was placed                                      |
-| created_by                | UUID          | NOT NULL                                        | ID of user who has added the currency                                    |
+| created_by                | VARCHAR(50)   | NOT NULL DEFAULT ' '                            | ID of user who has added the currency                    |
 | updated_at                | DATETIME      | NOT NULL                                        | Timestamp when the order was last updated                                     |
 | cancelled_at              | DATETIME      | NOT NULL                                        | Timestamp when the order was cancelled                                   |
-| updated_by                | UUID          | NOT NULL                                        | ID of user who has updated the order                                       |
-| cancel_amount             | BIGINT        | NOT NULL                                        |cancel the order amount                                      |
-| settlement_quantity       | BIGINT        | NOT NULL                                        | Quantity of currency settled in the order                                   |
+| updated_by                | VARCHAR(50)   | NOT NULL DEFAULT ' '                            | ID of user who has updated the order                                       |
+| cancel_amount             | VARCHAR(100)  | NOT NULL DEFAULT ' '                              |cancel the order amount                                      |
+| settlement_quantity       | VARCHAR(100)  | NOT NULL DEFAULT ' '                              | Quantity of currency settled in the order                                   |
 ``
 ``
 

@@ -35,7 +35,7 @@ sidebar_position: 3
          "UserId":"456e4567-e89b-12d3-a456-426614174000",
          "TradePairId":"3456786e-e89b-12d3-a456-46456234556",
          "OrderCategory":"ORDER_CATEGORY_STOP_LOSS",
-         "Type":"BUY",
+         "Type":"TYPE_BUY",
          "Status":"OPEN",
          "Quantity":"0.09356620",
          "Price":"8947.90000000",
