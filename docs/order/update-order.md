@@ -22,7 +22,7 @@ sidebar_position: 4
 ```json
 {
    "ID":"123e4567-e89b-12d3-a456-426614174000",
-   "Status":"COMPLETED",
+   "Status":"STATUS_COMPLETED",
    "ExecutedQuantity":".0004",
    "ExecutedTotal":"4.0006",
    "SettlementAmount":"4.0006",
@@ -41,7 +41,7 @@ sidebar_position: 4
          "TradePairId":"3456786e-e89b-12d3-a456-46456234556",
          "OrderCategory":"ORDER_CATEGORY_STOP_LOSS",
          "Type":"BUY",
-         "Status":"OPEN",
+         "Status":"STATUS_COMPLETED",
          "Quantity":"0.09356620",
          "Price":"8947.90000000",
          "StopLimit":"8947.90000009",
