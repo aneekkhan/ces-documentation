@@ -25,8 +25,10 @@ sidebar_position: 19
 {
   "Name": "User",
   "Description": "Role Description",
-  "AccessiableRoutes": "access",
+  "AccessiableRoutes": ["access"],
   "IsActive": "TRUE",
+  "Slug":"",
+  "Permissions":""
 }
 ```
 
@@ -39,8 +41,10 @@ sidebar_position: 19
         "ID": "123e4567-e89b-12d3-a456-426614174111", 
         "Name": "User",
         "Description": "Role Description",
-        "AccessiableRoutes": "access",
+        "AccessiableRoutes":  ["access"],
         "IsActive": "TRUE",
+        "Slug":"",
+        "Permissions":"",  
         "CreatedAt": "2023-05-08 09:12:15",
         "UpdatedAt": "2023-05-08 09:12:15",
         "CreatedBy": "123e4567-e89b-12d3-a456-426614174025",
