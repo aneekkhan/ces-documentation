@@ -24,9 +24,7 @@ sidebar_position: 4
    "SortBy":"DESC",
    "SortByColumn":"name",
    "SearchTerm":"B",
-   "Limit":10,
-   "Offset":0,
-   "Status":""
+   "IsActive":"TRUE"
 }
 ```
 ### Response example:
@@ -44,8 +42,8 @@ sidebar_position: 4
             "MinimumOrderAmount":"22.56",
             "MaximumOrderAmount":"65.89",
             "LastPrice":"124.98",
-            "IsActive":"ACTIVE",
-            "IsDefault":"IS_NOT_DEFAULT",
+            "IsActive":"TRUE",
+            "IsDefault":"FALSE",
             "MakerFee":"99.00",
             "TakerFee":"90.89",
             "FeeType":"FEE_TYPE_FIXED",
@@ -62,8 +60,8 @@ sidebar_position: 4
             "MinimumOrderAmount":"22.56",
             "MaximumOrderAmount":"65.89",
             "LastPrice":"124.98",
-            "IsActive":"ACTIVE",
-            "IsDefault":"IS_NOT_DEFAULT",
+            "IsActive":"TRUE",
+            "IsDefault":"FALSE",
             "MakerFee":"99.00",
             "TakerFee":"90.89",
             "FeeType":"FEE_TYPE_FIXED",
