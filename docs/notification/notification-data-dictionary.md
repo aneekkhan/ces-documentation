@@ -24,12 +24,12 @@ provide real-time updates and alerts to their users.
 | title            | varchar(50)   | NOT NULL                                    | Title of the notification                       |
 | details          | varchar(255)  | NOT NULL                                    | Details of the notification message                            |
 | read_at          | TIMESTAMP     | NOT NULL                                    | Timestamp of when the notification was read               |
-| is_read          | tinyint(1)    | DEFAULT 0                                   | Flag indicating whether the notification is 'read' or 'unread'|
+| is_read          | VARCHAR(50)   | NOT NULL DEFAULT 'FALSE'                    | Flag indicating whether the notification is 'read' or 'unread'|
 | created_at      | TIMESTAMP      | NOT NULL                                    | Timestamp of when the notification was created           |
-| created_by      | UUID           | NOT NULL                                    | User created by                                 |
-| updated_at      | TIMESTAMP      | NOT NULL                                    | Timestamp when the notification was last updated      |
-| updated_by      | UUID           | NOT NULL                                    | User updated by                                 |
-| reference       | varchar(255)   | NOT NULL                                    | Slug indicating notification's title               |
+| created_by      | varchar(100)   | NOT NULL                                    | User created by                                 |
+| updated_at      | TIMESTAMP      | NOT NULL                                    | Timestamp when the notification was last updated           |
+| updated_by      | varchar(100)   | NOT NULL                                    | User updated by                                 |
+| reference       | varchar(255)   | NOT NULL                                    | Slug indicating notification's title             |
 
 `
 `
