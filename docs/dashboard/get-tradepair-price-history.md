@@ -37,23 +37,7 @@ sidebar_position: 6
          "HighPrice":"4353564.54",
          "LowPrice":"0.00",
          "Volume":"123.00",
-      },
-      "List":[
-         {
-            "ID":"123e4567-e89b-12d3-a456-426614174000",
-            "BaseCurrency":"USD",
-            "QuoteCurrency":"BTC",
-            "Price":"123.00",
-            "Volume":"0.00",
-         },
-         {
-            "ID":"123e4567-e89b-12d3-a456-426614174678",
-            "BaseCurrency":"ETH",
-            "QuoteCurrency":"BTC",
-            "Price":"6555.00",
-            "Volume":"0.00",
-         }
-      ]
+      }
    }
 }
 ```
