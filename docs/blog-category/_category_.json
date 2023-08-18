@@ -1,0 +1,8 @@
+{
+  "label": "Blog Category",
+  "position": 26,
+  "link": {
+    "type": "generated-index",
+    "description": "blog category"
+  }
+}
